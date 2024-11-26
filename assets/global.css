@@ -10,8 +10,8 @@ body {
 }
 
 .container__sidemargin {
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .primary-btn {
@@ -20,6 +20,10 @@ body {
     border: none;
     padding: 12px 40px;
     color: white;
+}
+
+h3 {
+    font-size: 28px;
 }
 
 @media (min-width: 768px) {

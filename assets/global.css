@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+:root {
+    --primary-color: #57B38E;
+    --secondary-color: #066D8B;
+}
+
+.container__sidemargin {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.primary-btn {
+    background-color: #FD7401;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 40px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .container__maxwidth {
+        max-width: 1170px;
+    }
+
+    .container__center {
+        margin: 0 auto;
+    }
+}

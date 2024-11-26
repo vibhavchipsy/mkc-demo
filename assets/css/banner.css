@@ -1,0 +1,118 @@
+.banner__image img {
+    width: 100%;
+}
+
+.banner__texts {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.banner__title {
+    font-weight: 600;
+    color: #5BB78D;
+}
+
+.banner__subtitle {
+    font-weight: 600;
+    color: #0B718B;
+
+}
+
+.banner__texts h2,
+.banner__texts h3,
+.banner__texts p {
+    margin: 0;
+}
+
+.bannerSwiper {
+    overflow: hidden;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+    border-radius: 0 !important;
+    width: 6px !important;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+    background-color: var(--secondary-color) !important;
+    height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary-color) !important;
+    height: 18px !important;
+}
+
+.bannerSwiper {
+    background-image: url('/assets/images/banner/bg\ image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .banner__container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .banner__title {
+        font-size: 47px;
+        font-weight: 600;
+        line-height: 59.22px;
+        color: #5BB78D;
+    }
+
+    .banner__subtitle {
+        font-size: 28px;
+        font-weight: 600;
+        color: #0B718B;
+
+    }
+
+    .banner__texts .primary-btn {
+        width: 28%;
+    }
+
+    .swiper-pagination {
+        width: 16% !important;
+        position: relative !important;
+    }
+
+    .swiper-button-next {
+        position: relative !important;
+        left: 95% !important;
+        margin-top: 25px !important;
+    }
+
+    .swiper-button-prev {
+        position: relative !important;
+        left: 90% !important;
+        margin-top: -45px !important;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 25px !important;
+        background: white;
+        border-radius: 4px;
+        padding: 10px 12px;
+        color: #086F8B;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner__container {
+        padding: 0 15px;
+    }
+
+    .banner__texts .primary-btn {
+        width: 38%;
+    }
+}

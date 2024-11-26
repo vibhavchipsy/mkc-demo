@@ -7,7 +7,8 @@
     <title>MKC</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" />
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="/assets/css/banner.css" />
     <link rel="stylesheet" href="/assets/global.css" />
@@ -60,7 +61,23 @@
         <div class="bannerSwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="banner__container container__sidemargin">
+                    <div class="banner__container container__sidemargin container__maxwidth  container__center">
+                        <div class="banner__image">
+                            <img src="/assets/images/banner/banner 1.png" alt="Description of image">
+                        </div>
+                        <div class="banner__texts">
+                            <h2 class="banner__title">MKC Biotherapeutics</h2>
+                            <h3 class="banner__subtitle">Harnessing Biology, Healing Lives</h3>
+                            <p>Delivering safe, accessible therapies to stop disease progression, repair tissue, and
+                                improve
+                                lives
+                            </p>
+                            <button class="primary-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner__container container__sidemargin container__maxwidth  container__center">
                         <div class="banner__image">
                             <img src="/assets/images/banner/banner 1.png" alt="Description of image" loading="lazy">
                         </div>
@@ -76,23 +93,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="banner__container container__sidemargin">
-                        <div class="banner__image">
-                            <img src="/assets/images/banner/banner 1.png" alt="Description of image" loading="lazy">
-                        </div>
-                        <div class="banner__texts">
-                            <h2 class="banner__title">MKC Biotherapeutics</h2>
-                            <h3 class="banner__subtitle">Harnessing Biology, Healing Lives</h3>
-                            <p>Delivering safe, accessible therapies to stop disease progression, repair tissue, and
-                                improve
-                                lives
-                            </p>
-                            <button class="primary-btn">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="banner__container container__sidemargin">
+                    <div class="banner__container container__sidemargin container__maxwidth  container__center">
                         <div class="banner__image">
                             <img src="/assets/images/banner/banner 1.png" alt="Description of image" loading="lazy">
                         </div>
@@ -132,6 +133,29 @@
         </div>
         <div class="about__mkc--image">
             <img src="/assets/images/home/aboutmkc.png" alt="About MKC" loading="lazy">
+        </div>
+    </div>
+
+    <div class="mkc__team--container container__sidemargin">
+        <div class="mkc__team-cards container__maxwidth container__center">
+            <a class="mkc__team-card" href="#">
+                <div class="mkc__team-directioricon">
+                    <object data="/assets/icons/board of directors icon.svg"></object>
+                </div>
+                <div class="mkc__team-directortexts">
+                    <p>Board of Directors</p>
+                    <p>Meet the brains behind our strategy</p>
+                </div>
+            </a>
+            <a class="mkc__team-card" href="#">
+                <div class="mkc__team-directioricon">
+                    <object data="/assets/icons/board of directors icon.svg"></object>
+                </div>
+                <div class="mkc__team-directortexts">
+                    <p>Board of Directors</p>
+                    <p>Meet the brains behind our strategy</p>
+                </div>
+            </a>
         </div>
     </div>
 

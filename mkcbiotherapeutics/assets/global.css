@@ -2,13 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Outfit", Arial, sans-serif;
-  background-color: wheat;
+  background-image: url('/mkcbiotherapeutics/assets/images/body_image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 :root {
   --primary-color: #57b38e;
   --secondary-color: #066d8b;
   --color1: #FD7401;
+}
+
+p {
+  font-size: 16px;
 }
 
 .container__sidemargin {
@@ -79,6 +87,106 @@ h3 {
   gap: 25px;
 }
 
+.section4__container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 50px;
+}
+
+.card2__container {
+  position: relative;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px 0px #299CD41A;
+  background: #fff;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.card2__container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(165.92deg, #56B28D -2.79%, #0B718C 105.79%);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.card2__container:hover::before {
+  opacity: 1;
+}
+
+
+.card2__icon-container {
+  display: inline-block;
+  padding: 8px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.section4__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section4__cards .row {
+  display: flex;
+  gap: 20px;
+}
+
+.card2__icon-container {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #066D8B 0%, #5FBA8D 100%);
+}
+
+.card2__icon-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: #fff;
+  margin-top: -3px;
+}
+
+.card2__icon-container img {
+  position: relative;
+  z-index: 2;
+}
+
+.card2__text-container {
+  color: var(--secondary-color);
+}
+
+.card2__container:hover .card2__text-container {
+  color: white;
+}
+
+.row .card2__container {
+  flex: 1;
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+  .section4__container .about__mkc--texts,
+  .section4__container .section4__cards {
+    flex: 1;
+  }
+}
+
+@media (min-width: 990px) {}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .section3__container .about__mkc--texts {
     flex: 1;
@@ -102,5 +210,21 @@ h3 {
     flex-direction: row;
     padding-top: 25px;
     justify-content: space-between;
+  }
+
+  .section4__container {
+    flex-direction: row;
+  }
+
+  .section4__container {
+    justify-content: space-between;
+  }
+
+  .section4__container .about__mkc--texts {
+    width: 50%;
+  }
+
+  .section4__cards {
+    width: 38%;
   }
 }

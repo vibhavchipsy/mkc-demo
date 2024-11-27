@@ -1,9 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     new Swiper('.bannerSwiper', {
-        loop: true,
-        // autoplay: {
-        //     delay: 3000,
+        // effect: 'fade',
+        // fadeEffect: {
+        //     crossFade: true
         // },
+        loop: true,
+        autoplay: {
+            delay: 1000,
+        },
         pagination: {
             el: '.swiper-pagination',
             clickable: true,

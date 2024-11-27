@@ -173,6 +173,33 @@ h3 {
   flex: 1;
 }
 
+.stats_section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 25px;
+}
+
+.stat_card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px 16px;
+  box-shadow: 0px 0px 10px 0px #0B739033;
+}
+
+.stat_text {
+  color: var(--secondary-color);
+}
+
+.stat_value {
+  color: var(--primary-color);
+}
+
+.stat_text,
+.stat_value {
+  margin: 0;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -222,5 +249,26 @@ h3 {
 
   .section4__cards {
     width: 38%;
+  }
+
+  .stats_section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .stat_card {
+    width: 100%;
+  }
+
+  .stats_section {
+    padding-top: 50px;
+  }
+
+  .stat_text {
+    font-size: 20px;
+  }
+
+  .stat_value {
+    font-size: 28px;
   }
 }

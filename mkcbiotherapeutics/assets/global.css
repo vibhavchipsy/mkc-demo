@@ -200,6 +200,62 @@ h3 {
   margin: 0;
 }
 
+.contactus_section {
+  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  margin-top: 25px;
+  padding: 10px 0px;
+}
+
+.contact-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text h3,
+.contact-text p {
+  margin: 0;
+}
+
+.contactus_form {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.contactus_form .form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactus_form .form-group {
+  flex: 1;
+}
+
+.contactus_form .form-group input,
+.contactus_form .form-group textarea {
+  width: 100%;
+  font-family: "Outfit", Arial, sans-serif;
+  border-color: #A2B6E2;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.contactus_form input:focus,
+.contactus_form textarea:focus {
+  outline: none;
+  border-color: transparent;
+}
+
+.contactus_section .submit__field {
+  justify-content: center;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -270,5 +326,10 @@ h3 {
 
   .stat_value {
     font-size: 28px;
+  }
+
+  .contactus_form .form-row {
+    flex-direction: row;
+    gap: 10px;
   }
 }

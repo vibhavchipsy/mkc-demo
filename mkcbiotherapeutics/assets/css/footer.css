@@ -1,0 +1,108 @@
+.footer__bottom {
+    background: linear-gradient(90.04deg, #5FBA8D -75.54%, #066D8B 99.97%);
+}
+
+.footer__top-container {
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__top {
+    background-image: url('/mkcbiotherapeutics/assets/images/footer/footer_bg_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.footer__top-socials div {
+    background: linear-gradient(144.34deg, #5FBA8D -20.07%, #066D8B 134.47%);
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer__top-link {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .footer__top-container {
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footer__top .divider {
+        background-color: #8FE6FF;
+        width: 1px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 990px) {
+    .footer__logo {
+        width: 35%;
+    }
+
+    .footer__top-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35%;
+        align-items: center;
+    }
+
+    .footer__top-socials {
+        width: 28%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 990px) {
+    .footer__logo {
+        width: 25%;
+    }
+
+    .footer__top-links {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer__top-socials {
+        width: 14%;
+        justify-content: end;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer__top .divider {
+        height: 65 px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__top-links {
+        align-items: start;
+        width: 100%;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .footer__top-socials {
+        justify-content: start;
+    }
+}

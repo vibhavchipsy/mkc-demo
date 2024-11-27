@@ -89,6 +89,7 @@
 .header {
   border-bottom: 1px solid #ffffff1a;
   box-shadow: 0px 0px 20px 0px #066d8b33;
+  background-color: white;
 }
 
 @media (max-width: 998px) {
@@ -120,7 +121,7 @@
     display: block;
   }
 
-  #check:checked ~ .menu {
+  #check:checked~.menu {
     right: 0;
   }
 

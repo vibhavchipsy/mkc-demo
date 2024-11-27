@@ -2,11 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Outfit", Arial, sans-serif;
-  background-image: url('/mkcbiotherapeutics/assets/images/body_image.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-color: hsl(0, 0%, 90%);
 }
 
 :root {

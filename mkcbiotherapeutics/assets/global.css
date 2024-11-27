@@ -2,11 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Outfit", Arial, sans-serif;
+  background-color: wheat;
 }
 
 :root {
   --primary-color: #57b38e;
   --secondary-color: #066d8b;
+  --color1: #FD7401;
 }
 
 .container__sidemargin {
@@ -15,7 +17,7 @@ body {
 }
 
 .primary-btn {
-  background-color: #fd7401;
+  background-color: var(--color1);
   border-radius: 4px;
   border: none;
   padding: 12px 40px;
@@ -31,6 +33,58 @@ h3 {
   overflow: hidden;
 }
 
+.card1__container {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.card1-link {
+  color: var(--color1);
+}
+
+.card1-maintext {
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+
+.card1__img-container {
+  padding: 5px 5px 0 5px;
+}
+
+.card1__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card1__text-container p {
+  margin: 0;
+}
+
+.card1__img-container img {
+  width: 100%;
+}
+
+.cards_container {
+  padding-top: 50px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.section3__container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section3__container .about__mkc--texts {
+    flex: 1;
+  }
+}
+
 @media (min-width: 768px) {
   .container__maxwidth {
     max-width: 1170px;
@@ -38,5 +92,15 @@ h3 {
 
   .container__center {
     margin: 0 auto;
+  }
+
+  .cards_container {
+    flex-direction: row;
+  }
+
+  .section3__container {
+    flex-direction: row;
+    padding-top: 25px;
+    justify-content: space-between;
   }
 }

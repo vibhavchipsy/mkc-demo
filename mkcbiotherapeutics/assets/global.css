@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Outfit", Arial, sans-serif;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(0, 0%, 93%);
 }
 
 :root {
@@ -264,7 +264,12 @@ h3 {
   }
 }
 
-@media (min-width: 990px) {}
+@media (min-width: 1200px) {
+  .container__sidemargin {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .section3__container .about__mkc--texts {

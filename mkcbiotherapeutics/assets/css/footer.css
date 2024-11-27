@@ -32,17 +32,139 @@
     font-weight: 500;
 }
 
+.footer__bottom-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer__bottom-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__bottom-container .custom_li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #5FBA8D;
+    margin-right: 2px;
+}
+
+.footer__bottom-anchor {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__bottom-anchor span {
+    color: white;
+    display: flex;
+}
+
+.footer__bottom-container .parent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__bottom-container .container {
+    padding: 15px;
+    background: #FFFFFF1A;
+}
+
+.footer__bottom-container .container1 .links {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__bottom-container .container2 .sub-container .links {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__bottom-container .title {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.footer__bottom hr {
+    margin: 0;
+}
+
+.footer_bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+}
+
+.footerbar-subcontainer2 {
+    display: flex;
+}
+
+.footerbar__subcontainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerbar__subcontainer .pipe {
+    padding: 0px 10px;
+}
+
 @media (min-width: 768px) {
     .footer__top-container {
         flex-direction: row;
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 
     .footer__top .divider {
         background-color: #8FE6FF;
         width: 1px;
         height: 80px;
+    }
+
+    .footer__bottom-container {
+        flex-direction: row;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+
+    .footer__bottom-container .parent-container {
+        flex-direction: row;
+    }
+
+    .footer__bottom-container .container1 {
+        width: 35%;
+    }
+
+    .footer__bottom-container .container2 {
+        width: 70%;
+    }
+
+    .footer__bottom-container .subcontainer1 {
+        width: 33%;
+    }
+
+    .footer__bottom-container .subcontainer2 {
+        width: 33%;
+    }
+
+    .footer__bottom-container .subcontainer3 {
+        width: 33%;
+    }
+
+    .footer_bar {
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
@@ -71,6 +193,9 @@
 @media (min-width: 990px) {
     .footer__logo {
         width: 25%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
     }
 
     .footer__top-links {
@@ -83,14 +208,18 @@
 
     .footer__top-socials {
         width: 14%;
-        justify-content: end;
         display: flex;
-        align-items: center;
         gap: 10px;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer__top .divider {
         height: 65 px;
+    }
+
+    .footer__bottom-container .container {
+        padding: 25px 25px 35px 25px;
     }
 }
 

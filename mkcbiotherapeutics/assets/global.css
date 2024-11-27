@@ -256,6 +256,10 @@ h3 {
   justify-content: center;
 }
 
+.page_banner h1 {
+  margin: 0;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,

@@ -11,6 +11,30 @@ body {
   --color1: #FD7401;
 }
 
+.color1-color {
+  color: var(--color1);
+}
+
+.text_decoration_none {
+  text-decoration: none;
+}
+
+.color-unset {
+  color: unset;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
 p {
   font-size: 16px;
 }
@@ -377,10 +401,62 @@ h3 {
   width: 60px;
 }
 
+.homepage-partners_and_investors {
+  padding-top: 25px;
+}
+
 .homepage_news-section .news_viewallbtn {
   display: flex;
   justify-content: center;
   padding-top: 7px;
+}
+
+.homepage-partners_and_investors .section__subcontainer {
+  padding: 20px 18px;
+  background-color: white;
+}
+
+.homepage-partners_and_investors h3 {
+  margin: 0;
+}
+
+.partners_investors-imgcontainer {
+  position: relative;
+}
+
+.partners_investors-imgcontainer img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.homepage-partners_and_investors .about__mkc--texts {
+  width: 100%;
+}
+
+.homepage-partners_and_investors .custom_li {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #5FBA8D;
+  margin-right: 2px;
+}
+
+.homepage-partners_and_investors .card5__para p {
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+.homepage-partners_and_investors .card5__para .last_link {
+  padding-bottom: 10px;
+}
+
+.card5__container {
+  border-radius: 6px;
+  box-shadow: 0px 0px 37.18px 0px #299CD433;
+  background-color: white;
+  border: 1px solid #FFFFFF80;
+  padding: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -398,6 +474,26 @@ h3 {
 
   .homepage_news-section .news_cards {
     gap: 28px;
+  }
+
+  .homepage-partners_and_investors {
+    padding-top: 55px;
+  }
+
+  .card5__container {
+    position: absolute;
+  }
+
+  .card5__container.container1 {
+    width: 28%;
+    top: 5%;
+    right: 10%;
+  }
+
+  .card5__container.container2 {
+    width: 45%;
+    top: 18%;
+    left: 5%;
   }
 }
 

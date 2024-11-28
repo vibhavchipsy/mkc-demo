@@ -472,6 +472,28 @@ h3 {
   text-align: justify;
 }
 
+.gradient_div {
+  height: 200px;
+  background: linear-gradient(165.92deg, #56B28D -2.79%, #0B718C 105.79%);
+}
+
+.map_location-maincontainer {
+  margin-top: -180px;
+}
+
+.map_location-iframecontainer {
+  padding: 13px;
+  border: 1px solid #FFFFFF80;
+  border-radius: 6px;
+  backdrop-filter: blur(86.65215301513672px);
+  box-shadow: 0px 0px 37.18px 0px #299CD433;
+
+}
+
+.map_location-iframecontainer iframe {
+  min-height: 380px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -623,5 +645,13 @@ h3 {
 
   .aboutpage_section1 {
     flex-direction: row;
+  }
+
+  .gradient_div {
+    height: 320px;
+  }
+
+  .map_location-iframecontainer iframe {
+    min-height: 480px;
   }
 }

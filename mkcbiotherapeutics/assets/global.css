@@ -556,6 +556,41 @@ h3 {
   border-bottom-left-radius: 10px;
 }
 
+.contactus_page-form .contact_form-container2 {
+  background: linear-gradient(165.92deg, #56B28D -2.79%, #0B718C 105.79%);
+  color: white;
+  padding: 20px;
+}
+
+.contactus_page-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus_page-form .contact_form-container2 .form-subcontainer1 {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactus_page-form .form-subcontainer2 {
+  padding: 20px;
+  border: 1px solid #FFFFFF80;
+  border-radius: 6px;
+}
+
+.contactus_page-form .form-subcontainer2 .form-iconbox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contactus_page-form .form-subcontainer2 .form-box {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -612,6 +647,10 @@ h3 {
 
   .aboutpage-cards {
     gap: 20px;
+  }
+
+  .contactus_page-form {
+    flex-direction: row;
   }
 }
 

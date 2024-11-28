@@ -260,6 +260,29 @@ h3 {
   margin: 0;
 }
 
+.page_banner {
+  background-image: url('/mkcbiotherapeutics/assets/images/commonbanner/page_banner_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+}
+
+.page_banner-container {
+  position: relative;
+}
+
+.page_banner-title {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.page_banner-absolute {
+  position: absolute;
+  top: 5%;
+  right: 5px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,

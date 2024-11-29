@@ -137,7 +137,7 @@
     display: block;
   }
 
-  #check:checked~.menu {
+  #check:checked ~ .menu {
     right: 0;
   }
 

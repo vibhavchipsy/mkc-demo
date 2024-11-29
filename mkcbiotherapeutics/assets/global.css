@@ -83,6 +83,11 @@ p {
   padding: 12px 40px;
   color: white;
   font-family: "Outfit", Arial, sans-serif;
+  transition: all 0.15s ease-in-out;
+}
+
+.primary-btn:hover {
+  box-shadow: 0px 11.12px 22.24px 0px #fd74014d;
 }
 
 h3 {
@@ -282,7 +287,7 @@ h3 {
   gap: 10px;
   display: flex;
   flex-direction: column;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 .contactus_form .form-row {
@@ -826,7 +831,7 @@ h3 {
 
 .arrow_white_bg {
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 4px;
   border: 1px solid #ffffff80;
   box-shadow: 0px 0px 37.18px 0px #299cd433;
 }
@@ -1133,7 +1138,11 @@ h3 {
 
   .contactus_form .form-row {
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
+  }
+
+  .contactus_form {
+    gap: 20px;
   }
 
   .card3__container {
@@ -1264,6 +1273,28 @@ h3 {
 
   .card1__container:hover {
     background-color: var(--primary-color);
+  }
+
+  .card1__container {
+    position: relative;
+    box-shadow: 0px 0px 10px 0px #299cd41a;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .card1__container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(165.92deg, #56b28d -2.79%, #0b718c 105.79%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .card1__container:hover::before {
+    opacity: 1;
   }
 
   .card1__container:hover .card1-maintext,

@@ -1058,3 +1058,13 @@ h3 {
     padding-top: 50px;
   }
 }
+
+@media (min-width: 990px) {
+  .contactus_page-form .contactus_form .form-row {
+    gap: 27px;
+  }
+
+  .contactus_page-form .contactus_form {
+    gap: 27px;
+  }
+}

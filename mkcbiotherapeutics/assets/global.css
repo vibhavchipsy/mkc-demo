@@ -96,6 +96,11 @@ h3 {
 .card1__container {
   background-color: white;
   border-radius: 6px;
+  transition: all 0.15s ease-in-out;
+}
+
+.learmore_btn {
+  display: none;
 }
 
 .card1-link {
@@ -258,7 +263,7 @@ h3 {
 .contactus_section {
   background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   margin-top: 25px;
-  padding: 10px 0px;
+  padding: 30px 0 50px 0;
 }
 
 .contact-text {
@@ -844,6 +849,31 @@ h3 {
   display: none;
 }
 
+.mkc__team-card {
+  position: relative;
+}
+
+.arrow-orange_bg {
+  position: absolute;
+  right: 35px;
+  top: 30%;
+}
+
+.arrow-orange_bg svg {
+  transform: rotate(180deg);
+}
+
+.arrow-orange_bg .arrow_white_bg-icon {
+  border: 1px solid #FFFFFF80;
+  background: #FFFFFF1A;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+
+.arrow-orange_bg .arrow_white_bg-icon g path {
+  fill: white;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -1211,5 +1241,34 @@ h3 {
 
   .footer_abs2 {
     right: 0;
+  }
+
+  .mkc__team-directioricon {
+    margin-left: -50px;
+  }
+
+  .mkc__team-cards {
+    gap: 60px;
+  }
+
+  .mkc__team-card {
+    gap: 20px;
+  }
+
+  .card1__container:hover {
+    background-color: var(--primary-color);
+  }
+
+  .card1__container:hover .card1-maintext,
+  .card1__container:hover .card1-subtext {
+    color: white;
+  }
+
+  .card1__container:hover .learmore_btn {
+    display: block;
+  }
+
+  .card1__container:hover .learmore_text {
+    display: none;
   }
 }

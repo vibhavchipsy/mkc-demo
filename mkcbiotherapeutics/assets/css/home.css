@@ -60,11 +60,59 @@
     flex: 1;
 }
 
+.mkc__team-card {
+    transition: all 0.15s ease-in-out;
+}
+
 .mkc__team-directioricon {
-    display: inline-block;
-    background-color: white;
+    position: relative;
+    /* Enable pseudo-element positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add the gradient using ::before */
+.mkc__team-directioricon::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(180deg, #066D8B 0%, #5FBA8D 100%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* Smooth rotation and fade */
     border-radius: 8px;
-    padding: 5px 10px;
+}
+
+/* Keep the icon (img) on top of the white background */
+.mkc__team-directioricon img {
+    position: relative;
+}
+
+/* Trigger the gradient effect on hover of .mkc__team-card */
+.mkc__team-card:hover .mkc__team-directioricon::before {
+    opacity: 1;
+    /* Make the gradient visible */
+    transform: rotate(45deg);
+    /* Rotate the gradient */
+}
+
+/* Smoothly reset the gradient when hover ends */
+.mkc__team-card .mkc__team-directioricon::before {
+    opacity: 0;
+    /* Hide the gradient smoothly */
+}
+
+.mkc__team-card:hover {
+    background-color: white;
+}
+
+.mkc__team-card:hover .mkc__team-directortexts p {
+    color: var(--secondary-color);
+}
+
+.mkc__team-card:hover .arrow_white_bg-icon {
+    background-color: var(--color1);
 }
 
 .mkc__team-directortexts {

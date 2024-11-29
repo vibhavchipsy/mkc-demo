@@ -75,7 +75,7 @@
 }
 
 .swiper-button-prev {
-  margin-top: -45px !important;
+  margin-top: -40px !important;
   left: 77% !important;
 }
 
@@ -83,15 +83,6 @@
   justify-content: start;
   display: flex;
   align-items: end;
-}
-
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  font-size: 25px !important;
-  background: white;
-  border-radius: 4px;
-  padding: 10px 12px;
-  color: #086f8b;
 }
 
 @media (min-width: 768px) {
@@ -125,7 +116,7 @@
 
   .swiper-button-prev {
     left: 90% !important;
-    margin-top: -45px !important;
+    margin-top: -41px !important;
   }
 }
 

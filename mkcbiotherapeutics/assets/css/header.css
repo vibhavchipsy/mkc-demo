@@ -42,8 +42,7 @@
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #000;
-  transition: 0.15s ease-in-out;
+  background-color: #fff;
 }
 
 .menu li a:hover:after {
@@ -127,6 +126,13 @@
 
   .header__btn {
     display: none;
+  }
+}
+
+@media (min-width: 998px) {
+  .menu li a::after {
+    background-color: #000;
+    transition: 0.15s ease-in-out;
   }
 }
 

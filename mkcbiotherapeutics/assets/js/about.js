@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   new Swiper(".carousel1", {
-    // slidesPerView: 3,
+    loop: true,
     breakpoints: {
       320: {
         slidesPerView: 1, // 1 slide for mobile

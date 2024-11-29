@@ -733,7 +733,7 @@ h3 {
 }
 
 .contact_form-container2 .divider {
-  border: 1px dashed #FFFFFF80;
+  border: 1px dashed #ffffff80;
 }
 
 .contactus_page-form .form-subcontainer3 {
@@ -754,12 +754,12 @@ h3 {
 }
 
 .header_topbar {
-  background: linear-gradient(90deg, #066D8B 0%, #5FBA8D 100%);
+  background: linear-gradient(90deg, #066d8b 0%, #5fba8d 100%);
 }
 
 .header_topbar-icon img {
-  background: #FFFFFF1A;
-  box-shadow: 0px 0px 10px 0px #10778E33;
+  background: #ffffff1a;
+  box-shadow: 0px 0px 10px 0px #10778e33;
   padding: 3px;
   width: 25px;
 }
@@ -789,7 +789,7 @@ h3 {
 
 .topbar_subcontainer .divider {
   height: 20px;
-  background: #3CA1E5;
+  background: #3ca1e5;
   width: 1px;
   margin: 0 10px;
 }
@@ -803,8 +803,8 @@ h3 {
 .about__mkc--container .about__mkc--subcontainer {
   display: flex;
   align-items: center;
-  border-top: 1px solid #BDF0FF;
-  border-bottom: 1px solid #BDF0FF;
+  border-top: 1px solid #bdf0ff;
+  border-bottom: 1px solid #bdf0ff;
 }
 
 .corevalue_icon img {
@@ -813,22 +813,22 @@ h3 {
 }
 
 .ourcorevalue {
-  color: #0D738B;
+  color: #0d738b;
   margin-left: 15px;
   text-align: center;
 }
 
 .about__mkc--container .about__mkc--subcontainer .divider {
   height: 54px;
-  border: 1px solid #BDF0FF;
+  border: 1px solid #bdf0ff;
   margin: 0 20px;
 }
 
 .arrow_white_bg {
   background-color: #fff;
   border-radius: 6px;
-  border: 1px solid #FFFFFF80;
-  box-shadow: 0px 0px 37.18px 0px #299CD433;
+  border: 1px solid #ffffff80;
+  box-shadow: 0px 0px 37.18px 0px #299cd433;
 }
 
 .about__mkc--subcontainer .arrow_white_bg {
@@ -864,8 +864,8 @@ h3 {
 }
 
 .arrow-orange_bg .arrow_white_bg-icon {
-  border: 1px solid #FFFFFF80;
-  background: #FFFFFF1A;
+  border: 1px solid #ffffff80;
+  background: #ffffff1a;
   border-radius: 5px;
   padding: 8px 10px;
 }
@@ -875,7 +875,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-
   .section4__container .about__mkc--texts,
   .section4__container .section4__cards {
     flex: 1;
@@ -913,7 +912,7 @@ h3 {
 }
 
 .green-element {
-  background: linear-gradient(180deg, #5FBA8D -11.32%, #066D8B 100%);
+  background: linear-gradient(180deg, #5fba8d -11.32%, #066d8b 100%);
   width: 15px;
   height: 70px;
   position: absolute;
@@ -927,11 +926,11 @@ h3 {
 
 .aboutpage_section2 .about__mkc--image {
   padding-left: 20px;
-  border-left: 1px dashed #98E8FF
+  border-left: 1px dashed #98e8ff;
 }
 
 .aboutpage_section2 .core_values {
-  color: #0A708C;
+  color: #0a708c;
 }
 
 .card7__container {
@@ -946,9 +945,13 @@ h3 {
 
 .aboutpage_section2 .card7__subcontainer.card7__subcontainer1 {
   font-size: 30px;
-  background: linear-gradient(174.57deg, rgba(41, 156, 212, 0.1) 4.15%, rgba(255, 255, 255, 0) 96.3%);
-  border: 1px solid #FFFFFF80;
-  color: #4DAB92;
+  background: linear-gradient(
+    174.57deg,
+    rgba(41, 156, 212, 0.1) 4.15%,
+    rgba(255, 255, 255, 0) 96.3%
+  );
+  border: 1px solid #ffffff80;
+  color: #4dab92;
   padding: 15px 26px;
   border-radius: 6px;
 }
@@ -1052,7 +1055,7 @@ h3 {
 @media (max-width: 990px) {
   .cards7__container {
     padding-bottom: 20px;
-    background: linear-gradient(180deg, #5FBA8D -11.32%, #066D8B 100%);
+    background: linear-gradient(180deg, #5fba8d -11.32%, #066d8b 100%);
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
   }
@@ -1266,6 +1269,7 @@ h3 {
 
   .card1__container:hover .learmore_btn {
     display: block;
+    width: 45%;
   }
 
   .card1__container:hover .learmore_text {

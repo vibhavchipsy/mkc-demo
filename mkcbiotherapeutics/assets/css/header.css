@@ -106,10 +106,6 @@
     background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   }
 
-  .menu li {
-    margin-top: 40px;
-  }
-
   .menu li a {
     padding: 10px;
     color: white;

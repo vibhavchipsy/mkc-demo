@@ -839,6 +839,11 @@ h3 {
   transform: rotate(180deg);
 }
 
+.footer_abs1,
+.footer_abs2 {
+  display: none;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -1187,5 +1192,24 @@ h3 {
 
   .about__mkc--subcontainer .arrow_white_bg {
     margin-left: 50px;
+  }
+
+  .footer {
+    position: relative;
+  }
+
+  .footer_abs1,
+  .footer_abs2 {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+
+  .footer_abs1 {
+    left: 0;
+  }
+
+  .footer_abs2 {
+    right: 0;
   }
 }

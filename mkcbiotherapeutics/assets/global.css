@@ -512,6 +512,18 @@ h3 {
   width: 100%;
 }
 
+.carousel1.aboutpage_section3 .card6__img-container img {
+  width: unset;
+}
+
+.aboutpage__carouselsection {
+  overflow: hidden;
+}
+
+.carousel1 .navigation_arrows {
+  position: relative;
+}
+
 .aboutpage_section3 .card6_texts-2subcontainer {
   display: flex;
   justify-content: space-between;

@@ -1271,4 +1271,8 @@ h3 {
   .card1__container:hover .learmore_text {
     display: none;
   }
+
+  .aboutpage_section2 {
+    gap: 25px;
+  }
 }

@@ -1,166 +1,166 @@
 .about__mkc--container {
-    padding-top: 50px;
-    gap: 30px;
+  padding-top: 50px;
+  gap: 30px;
 }
 
 .about__mkc--image img {
-    width: 100%;
+  width: 100%;
 }
 
 .about__mkc--para {
-    text-align: justify;
+  text-align: justify;
 }
 
 .about__mkc--texts {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .about__mkc--heading {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .about__mkc--heading .heading_icon {
-    display: flex;
+  display: flex;
 }
 
 .about__mkc--heading .primary-color {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .about__mkc--heading .secondary-color {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .mkc__team--container {
-    background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
-    display: flex;
-    flex-direction: column;
-    padding: 45px 0px;
-    gap: 30px;
+  background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 45px 0px;
+  gap: 30px;
 }
 
 .mkc__team-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
 }
 
 .mkc__team-card {
-    border: white;
-    border: 1px solid #FFFFFF80;
-    padding: 10px;
-    border-radius: 6px;
-    display: flex;
-    gap: 5px;
-    text-decoration: none;
-    flex: 1;
+  border: white;
+  border: 1px solid #ffffff80;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  gap: 5px;
+  text-decoration: none;
+  flex: 1;
 }
 
 .mkc__team-card {
-    transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .mkc__team-directioricon {
-    position: relative;
-    /* Enable pseudo-element positioning */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  /* Enable pseudo-element positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Add the gradient using ::before */
 .mkc__team-directioricon::before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    background: linear-gradient(180deg, #066D8B 0%, #5FBA8D 100%);
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    /* Smooth rotation and fade */
-    border-radius: 8px;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #066d8b 0%, #5fba8d 100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  /* Smooth rotation and fade */
+  border-radius: 8px;
 }
 
 /* Keep the icon (img) on top of the white background */
 .mkc__team-directioricon img {
-    position: relative;
+  position: relative;
 }
 
 /* Trigger the gradient effect on hover of .mkc__team-card */
 .mkc__team-card:hover .mkc__team-directioricon::before {
-    opacity: 1;
-    /* Make the gradient visible */
-    transform: rotate(45deg);
-    /* Rotate the gradient */
+  opacity: 1;
+  /* Make the gradient visible */
+  transform: rotate(16deg);
+  /* Rotate the gradient */
 }
 
 /* Smoothly reset the gradient when hover ends */
 .mkc__team-card .mkc__team-directioricon::before {
-    opacity: 0;
-    /* Hide the gradient smoothly */
+  opacity: 0;
+  /* Hide the gradient smoothly */
 }
 
 .mkc__team-card:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .mkc__team-card:hover .mkc__team-directortexts p {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .mkc__team-card:hover .arrow_white_bg-icon {
-    background-color: var(--color1);
+  background-color: var(--color1);
 }
 
 .mkc__team-directortexts {
-    color: white;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+  color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .mkc__team-directortexts p {
-    margin: 0;
+  margin: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .about__mkc--container {
-        display: flex;
-    }
+  .about__mkc--container {
+    display: flex;
+  }
 
-    .about__mkc--container .about__mkc--texts,
-    .about__mkc--container .about__mkc--image {
-        flex: 1;
-    }
+  .about__mkc--container .about__mkc--texts,
+  .about__mkc--container .about__mkc--image {
+    flex: 1;
+  }
 }
 
 @media (min-width: 990px) {
-    .about__mkc--container {
-        display: flex;
-    }
+  .about__mkc--container {
+    display: flex;
+  }
 
-    .about__mkc--texts {
-        width: 42%;
-    }
+  .about__mkc--texts {
+    width: 42%;
+  }
 
-    .about__mkc--image {
-        width: 50%;
-    }
+  .about__mkc--image {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
-    .about__mkc--image img {
-        width: 100%;
-    }
+  .about__mkc--image img {
+    width: 100%;
+  }
 
-    .mkc__team--container {
-        flex-direction: row;
-    }
+  .mkc__team--container {
+    flex-direction: row;
+  }
 
-    .mkc__team-cards {
-        flex-direction: row;
-    }
+  .mkc__team-cards {
+    flex-direction: row;
+  }
 }

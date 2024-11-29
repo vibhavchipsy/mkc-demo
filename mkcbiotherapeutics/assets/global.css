@@ -855,7 +855,7 @@ h3 {
 
 .arrow-orange_bg {
   position: absolute;
-  right: 35px;
+  right: 18px;
   top: 30%;
 }
 
@@ -1282,5 +1282,9 @@ h3 {
 
   .aboutpage_section2 {
     gap: 25px;
+  }
+
+  .arrow-orange_bg {
+    right: 35px;
   }
 }

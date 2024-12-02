@@ -9,10 +9,15 @@ body {
   --primary-color: #57b38e;
   --secondary-color: #066d8b;
   --color1: #fd7401;
+  --color2: #0A708C;
 }
 
 .color1-color {
   color: var(--color1);
+}
+
+.color2-color {
+  color: var(--color2);
 }
 
 .color-primary {
@@ -45,6 +50,10 @@ body {
 
 .font-weight-600 {
   font-weight: 600;
+}
+
+.display_none {
+  display: none;
 }
 
 p {
@@ -958,8 +967,8 @@ h3 {
 
 .our_science_pageTabBtn-container {
   background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #tab-section-1 .tab-button {
@@ -979,6 +988,58 @@ h3 {
 #tab-section-1 .tab-button {
   width: 100%;
   border-radius: 5.5px;
+}
+
+#panel-1-1 .tab-image {
+  position: relative;
+  display: inline-block;
+}
+
+#tab-section-1 .tabcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-text h2 {
+  margin: 0;
+}
+
+#panel-1-1,
+#panel-1-4 {
+  padding-top: 60px;
+}
+
+#panel-1-1 .tabcontent .tab-text,
+#panel-1-4 .tabcontent .tab-text {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#panel-1-1 .tabcontent .tab-text .tabtexts,
+#panel-1-4 .tabcontent .tab-text .tabtexts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#panel-1-1 .tabcontent .tab-text p,
+#panel-1-4 .tabcontent .tab-text p {
+  margin: 0;
+  text-align: justify;
+}
+
+#panel-1-1 .tabbtn span,
+#panel-1-4 .tabbtn span {
+  padding-right: 15px;
+}
+
+#panel-1-1 .tabbtn a svg {
+  transform: rotate(-90deg);
+}
+
+#panel-1-1 .tabbtn a svg g path {
+  stroke: white;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -1023,6 +1084,11 @@ h3 {
     margin-left: -20px;
     margin-top: 15px;
   }
+
+  .our_science_pageTabBtn-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 
 .green-element {
@@ -1044,7 +1110,7 @@ h3 {
 }
 
 .aboutpage_section2 .core_values {
-  color: #0a708c;
+  color: var(--color2);
 }
 
 .card7__container {
@@ -1162,6 +1228,10 @@ h3 {
     padding-top: 60px;
     padding-bottom: 100px;
   }
+
+  #tab-section-1 .tabcontent {
+    gap: 80px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -1174,6 +1244,11 @@ h3 {
 
   #tab-section-1 .tab-button svg {
     display: none;
+  }
+
+  #panel-1-1 .tab-image img,
+  #panel-1-4 .tab-image img {
+    width: 100%;
   }
 }
 
@@ -1323,6 +1398,11 @@ h3 {
   .aboutpage_section2 {
     padding-top: 50px;
   }
+
+  #tab-section-1 .tabcontent {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 @media (min-width: 990px) {
@@ -1461,6 +1541,16 @@ h3 {
     gap: 15px;
     justify-content: center;
     align-items: center;
+  }
+
+  #panel-1-1,
+  #panel-1-4 {
+    padding-top: 80px;
+  }
+
+  .our_science_pageTabBtn-container {
+    padding-top: 40px;
+    padding-bottom: 35px;
   }
 }
 

@@ -1276,6 +1276,10 @@ h3 {
   #tab-section-1 .tabcontent .tabcontent-section1 {
     gap: 60px;
   }
+
+  #tab-section-1 #panel-1-2 .tabcontent {
+    gap: 0;
+  }
 }
 
 @media (max-width: 990px) {

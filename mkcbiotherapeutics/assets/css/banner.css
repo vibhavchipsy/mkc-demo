@@ -115,8 +115,8 @@
   }
 
   .swiper-button-prev {
-    left: 90% !important;
-    margin-top: -41px !important;
+    left: 88% !important;
+    margin-top: -40px !important;
   }
 }
 
@@ -127,5 +127,11 @@
 
   .banner__texts .primary-btn {
     width: 38%;
+  }
+}
+
+@media (min-width: 990px) {
+  .swiper-button-prev {
+    left: 90% !important;
   }
 }

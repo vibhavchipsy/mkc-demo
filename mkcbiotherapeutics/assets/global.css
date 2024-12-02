@@ -20,6 +20,10 @@ body {
   color: var(--color2);
 }
 
+.color-white {
+  color: white;
+}
+
 .color-primary {
   color: var(--primary-color);
 }
@@ -84,7 +88,7 @@ p {
   font-size: 24px;
 }
 
-.text-justify {
+.text_justify {
   text-align: justify;
 }
 
@@ -995,7 +999,8 @@ h3 {
   display: inline-block;
 }
 
-#tab-section-1 .tabcontent {
+#tab-section-1 .tabcontent,
+#tab-section-1 .tabcontent .tabcontent-section1 {
   display: flex;
   flex-direction: column;
 }
@@ -1046,6 +1051,26 @@ h3 {
 
 #panel-1-1 .tabbtn a svg g path {
   stroke: white;
+}
+
+#panel-1-2 .tab_section2_caption-container p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+#panel-1-2 .tab_section2_caption-container {
+  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  padding: 12px 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#panel-1-2 .tabcontent .tab_section2_img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+  padding: 5px 10px;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -1247,7 +1272,8 @@ h3 {
     padding-bottom: 100px;
   }
 
-  #tab-section-1 .tabcontent {
+  #tab-section-1 .tabcontent,
+  #tab-section-1 .tabcontent .tabcontent-section1 {
     gap: 60px;
   }
 }
@@ -1267,6 +1293,10 @@ h3 {
   #panel-1-1 .tab-image img,
   #panel-1-2 .tab-image img,
   #panel-1-4 .tab-image img {
+    width: 100%;
+  }
+
+  #panel-1-2 .tabcontent .tab_section2_img-container .tab_section2-img2 img {
     width: 100%;
   }
 }
@@ -1418,9 +1448,21 @@ h3 {
     padding-top: 50px;
   }
 
-  #tab-section-1 .tabcontent {
+  #tab-section-1 .tabcontent,
+  #tab-section-1 .tabcontent .tabcontent-section1 {
     flex-direction: row;
     align-items: center;
+  }
+
+  #tab-section-1 #panel-1-2 .tabcontent {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  #panel-1-2 .tabcontent .tab_section2_img-container {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
   }
 }
 
@@ -1571,6 +1613,14 @@ h3 {
   .our_science_pageTabBtn-container {
     padding-top: 40px;
     padding-bottom: 35px;
+  }
+
+  #panel-1-2 .tabcontent .tab-text .tabtexts {
+    width: 85%;
+  }
+
+  #panel-1-4 .tabcontent .tab-text .tabtexts {
+    width: 83%;
   }
 }
 

@@ -71,6 +71,10 @@ p {
   font-size: 24px;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .container__sidemargin {
   padding-left: 15px;
   padding-right: 15px;
@@ -879,7 +883,17 @@ h3 {
   fill: white;
 }
 
+.our_science_page-section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.our_science_page-section1 .about__mkc--image img {
+  width: 100%;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
+
   .section4__container .about__mkc--texts,
   .section4__container .section4__cards {
     flex: 1;
@@ -913,6 +927,12 @@ h3 {
 
   .card7_gradientbox {
     align-items: baseline;
+  }
+
+  .our_science_page-section1 .about__mkc--image {
+    width: 40%;
+    margin-left: -20px;
+    margin-top: 15px;
   }
 }
 
@@ -950,11 +970,9 @@ h3 {
 
 .aboutpage_section2 .card7__subcontainer.card7__subcontainer1 {
   font-size: 30px;
-  background: linear-gradient(
-    174.57deg,
-    rgba(41, 156, 212, 0.1) 4.15%,
-    rgba(255, 255, 255, 0) 96.3%
-  );
+  background: linear-gradient(174.57deg,
+      rgba(41, 156, 212, 0.1) 4.15%,
+      rgba(255, 255, 255, 0) 96.3%);
   border: 1px solid #ffffff80;
   color: #4dab92;
   padding: 15px 26px;
@@ -1317,5 +1335,28 @@ h3 {
 
   .arrow-orange_bg {
     right: 35px;
+  }
+
+  .our_science_page-section1 {
+    flex-direction: row;
+    gap: 50px;
+    align-items: start;
+    margin-top: 40px;
+  }
+
+  .our_science_page-section1 .about__mkc--image {
+    width: 38%;
+  }
+
+  .our_science_page-section1 .about__mkc--texts {
+    width: 54.1%;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 660px) {
+  .our_science_page-section1 .about__mkc--image {
+    margin-left: -30px;
+    margin-top: 10px;
   }
 }

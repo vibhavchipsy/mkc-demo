@@ -27,6 +27,10 @@ body {
   color: var(--color3);
 }
 
+.color5-color {
+  color: var(--color5);
+}
+
 .color-white {
   color: white;
 }
@@ -41,6 +45,10 @@ body {
 
 .color-secondary {
   color: var(--secondary-color);
+}
+
+.bgcolor-white {
+  background-color: white;
 }
 
 .bgcolor-4 {
@@ -77,6 +85,10 @@ body {
 
 .display_none {
   display: none;
+}
+
+.visibility_hidden {
+  visibility: hidden;
 }
 
 p {
@@ -1250,6 +1262,69 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   margin-bottom: 15px;
 }
 
+.OA_page-guidelines {
+  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+}
+
+.OA_page-guidelines p {
+  margin: 0;
+}
+
+.OA_page_guidelines-1subcontainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.OA_page_guidelines-subcontainer.divider hr {
+  border: 1px dashed #FFFFFF80;
+  margin: 10px 0px 14px 0px;
+}
+
+.guideline_pointers {
+  display: flex;
+  gap: 10px;
+}
+
+.OA_guidelines-childsubcontainer {
+  padding: 10px 15px;
+  background: #FFFFFF1A;
+  border-radius: 4px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #FFFFFF80;
+}
+
+.OA_guidelines-childsubcontainer hr {
+  border: 1px dashed #299CD433;
+}
+
+.OA_guidelines-childsubcontainer .guidlines_1child {
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.OA_page_guidelines-2subcontainer {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.OA-absimg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.OA_page_section1-heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -1657,6 +1732,16 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     flex-direction: row;
     gap: 20px;
   }
+
+  .OA_page_guidelines-2subcontainer {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .OA_guidelines-childsubcontainer {
+    flex: 1;
+  }
 }
 
 @media (min-width: 990px) {
@@ -1845,6 +1930,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .OA_page_basecase_usecase-subcontainer {
     gap: 30px;
+  }
+
+  .OA_page_section1-heading {
+    padding-top: 30px;
+    padding-bottom: 25px;
   }
 }
 

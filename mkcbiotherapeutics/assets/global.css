@@ -10,6 +10,7 @@ body {
   --secondary-color: #066d8b;
   --color1: #fd7401;
   --color2: #0A708C;
+  --color3: #086F8C;
 }
 
 .color1-color {
@@ -18,6 +19,10 @@ body {
 
 .color2-color {
   color: var(--color2);
+}
+
+.color3-color {
+  color: var(--color3);
 }
 
 .color-white {
@@ -70,6 +75,10 @@ p {
 
 .font-15 {
   font-size: 15px;
+}
+
+.font-16 {
+  font-size: 16px;
 }
 
 .font-17 {
@@ -1050,11 +1059,22 @@ h3 {
   padding-right: 15px;
 }
 
-#panel-1-1 .tabbtn a svg {
+#panel-1-1 .tabbtn .primary-btn,
+#panel-1-3 .tabbtn .primary-btn {
+  padding: 12px 25px 12px 40px;
+}
+
+#panel-1-3 .main_text-2subcontainer .tabbtn {
+  padding-top: 12px;
+}
+
+#panel-1-1 .tabbtn a svg,
+#panel-1-3 .tabbtn a svg {
   transform: rotate(-90deg);
 }
 
-#panel-1-1 .tabbtn a svg g path {
+#panel-1-1 .tabbtn a svg g path,
+#panel-1-3 .tabbtn a svg g path {
   stroke: white;
 }
 
@@ -1085,6 +1105,50 @@ h3 {
   height: 80px;
 }
 
+#panel-1-3 .card7_container {
+  position: relative;
+  display: flex;
+  border: 1px solid #C5ECFF80;
+  border-radius: 4px;
+}
+
+#panel-1-3 .card7_container::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(165.92deg, #56B28D -2.79%, #0B718C 105.79%);
+  border-radius: 4px;
+}
+
+#panel-1-3 .card7-subcontainer {
+  z-index: 1;
+  background-color: white;
+  margin-left: 6px;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#panel-1-3 .card7-subcontainer p {
+  margin: 0;
+}
+
+#panel-1-3 .main_text-1subcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#panel-1-3 .tab-maintext {
+  display: flex;
+  flex-direction: column;
+}
+
+#panel-1-3 .main_text-2subcontainer hr {
+  margin: 4px 0px 20px 0px;
+}
 
 @media (min-width: 768px) and (max-width: 990px) {
 
@@ -1648,11 +1712,34 @@ h3 {
   #panel-1-4 .tabcontent .tab-text .tabtexts {
     width: 83%;
   }
+
+  #panel-1-3 .tab-maintext {
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+  }
+
+  #panel-1-3 .main_text-1subcontainer {
+    width: 56%;
+  }
+
+  #panel-1-3 .main_text-2subcontainer {
+    width: 41%;
+  }
+
+  #panel-1-3 .main_text-2subcontainer .tabbtn {
+    display: flex;
+    justify-content: end;
+  }
 }
 
 @media (max-width: 660px) {
   .our_science_page-section1 .about__mkc--image {
     margin-left: -30px;
     margin-top: 10px;
+  }
+
+  #panel-1-3 .main_text-2subcontainer img {
+    width: 100%;
   }
 }

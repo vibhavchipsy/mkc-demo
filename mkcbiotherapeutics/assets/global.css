@@ -1193,6 +1193,11 @@ h3 {
   border-radius: 4px;
 }
 
+.OA_page-gradient_container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .OA_page-gradient_container .primary-btn {
   display: inline-flex;
 }
@@ -1323,6 +1328,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 .OA_page_section1-heading {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.OA_page_summary-container {
+  padding-top: 35px;
+}
+
+.OA_page_summary-container .bulletin-heading {
+  padding-top: 25px;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -1934,6 +1947,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .OA_page_section1-heading {
     padding-top: 30px;
+    padding-bottom: 25px;
+  }
+
+  .OA_page-gradient_container {
+    padding-top: 50px;
     padding-bottom: 25px;
   }
 }

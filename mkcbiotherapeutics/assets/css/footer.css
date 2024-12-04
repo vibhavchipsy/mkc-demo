@@ -20,7 +20,8 @@
   padding: 20px 0;
 }
 
-.footer__top-socials div {
+.footer__top-socials .twitter,
+.footer__top-socials .linkedin {
   background: linear-gradient(144.34deg, #5fba8d -20.07%, #066d8b 134.47%);
   display: inline-block;
   padding: 10px;
@@ -123,6 +124,8 @@
 @media (min-width: 768px) {
   .footer__top-container {
     flex-direction: row;
+    z-index: 2;
+    position: relative;
   }
 
   .footer__top .divider {
@@ -224,6 +227,11 @@
 
   .footer__bottom-container .container {
     padding: 25px 25px 35px 25px;
+  }
+
+  #footer .footer__bottom-container .container {
+    z-index: 2;
+    position: relative;
   }
 }
 

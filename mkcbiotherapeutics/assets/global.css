@@ -1393,9 +1393,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 /* Accordion Item */
 .accordion-item {
-  padding-bottom: 10px;
   box-shadow: 0px 0px 10px 0px #299CD41A;
   border: 1px solid #FFFFFF80;
+}
+
+.accordion-item:not(:last-child) {
+  padding-bottom: 10px;
 }
 
 .accordion-header {

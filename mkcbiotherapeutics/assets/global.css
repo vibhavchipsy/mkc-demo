@@ -1264,6 +1264,7 @@ h3 {
 }
 
 hr.OA_page.OApage-divider.OApage_divider-3 {
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -1336,6 +1337,22 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .OA_page_summary-container .bulletin-heading {
   padding-top: 25px;
+}
+
+.OA_page-treatment_guidelines {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.OA_page-treatment_guidelines-container {
+  border: 1px dashed #70DFFF;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.OA_page_treatment-flowchart img {
+  width: 100%;
+  margin-bottom: -20px;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -1754,6 +1771,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .OA_guidelines-childsubcontainer {
     flex: 1;
+  }
+
+  .OA_page_treatment-flowchart img {
+    margin-top: -15px;
   }
 }
 

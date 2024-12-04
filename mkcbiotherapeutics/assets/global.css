@@ -13,6 +13,9 @@ body {
   --color3: #086F8C;
   --color4: #076E8C;
   --color5: #5fba8d;
+  --color6: #444746;
+  --color7: #48B1A9;
+  --color8: #60BA8E;
 }
 
 .color1-color {
@@ -29,6 +32,10 @@ body {
 
 .color5-color {
   color: var(--color5);
+}
+
+.color6-color {
+  color: var(--color6);
 }
 
 .color-white {
@@ -51,12 +58,24 @@ body {
   background-color: white;
 }
 
+.bgcolor-3 {
+  background-color: var(--color3);
+}
+
 .bgcolor-4 {
   background-color: var(--color4);
 }
 
 .bgcolor-5 {
   background-color: var(--color5);
+}
+
+.bgcolor-7 {
+  background-color: var(--color7);
+}
+
+.bgcolor-8 {
+  background-color: var(--color8);
 }
 
 .text_decoration_none {
@@ -1273,6 +1292,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   border-radius: 4px;
   padding: 15px;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .OA_page-guidelines p {
@@ -1355,6 +1375,133 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   margin-bottom: -20px;
 }
 
+.OA_page-treatment_graph {
+  padding-top: 15px;
+}
+
+.OA_page-treatment_graph-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Accordion Container */
+.accordion {
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Accordion Item */
+.accordion-item {
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 10px 0px #299CD41A;
+  border: 1px solid #FFFFFF80;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px 15px 15px;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.accordion-header h3 {
+  margin: 0;
+}
+
+.accordion-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #066d8b;
+  transition: transform 0.3s ease;
+}
+
+.accordion-body {
+  background: #fff;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, height 0.3s ease;
+}
+
+.accordion-body.open {
+  opacity: 1;
+  height: auto;
+}
+
+.accordion-body-content {
+  padding: 0px 15px 15px 15px;
+}
+
+.accordion-body .accordion-bulletins-container {
+  border-top: 1px solid #1991CB33;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.accordion-bulletins {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  padding-bottom: 10px;
+}
+
+.OA_page-treatment_graph-accordion {
+  width: 100%;
+}
+
+.accordion .accordion-header_container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.accordion .accordion-number {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  border: 0.44px solid #FFFFFF80;
+}
+
+.accordion-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-open,
+.icon-closed {
+  transition: transform 0.3s ease;
+  /* Optional for smooth animations */
+}
+
+.bulletins_custom {
+  min-width: 10px;
+  height: 10px;
+}
+
+.accordion .caption-container {
+  margin-top: 10px;
+  padding: 15px;
+  background: #F7F9FB;
+}
+
+.OA_page-graph-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.OA_page_summary-container .footer__bottom-container {
+  gap: 12px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -1415,6 +1562,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   #panel-1-3 .tab-text,
   #panel-1-4 .tab-text {
     flex: 1.5;
+  }
+
+  .OA_page-treatment_graph .OA_page-treatment_graph-image {
+    flex: 1;
+  }
+
+  .OA_page-treatment_graph .OA_page-treatment_graph-accordion {
+    flex: 1;
   }
 }
 
@@ -1589,6 +1744,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   #panel-1-2 .tabcontent .tab_section2_img-container .tab_section2-img2 img,
   #panel-1-3 .tabcontent .tab_section2_img-container .tab_section2-img2 img {
     width: 100%;
+  }
+
+  .OA_page-treatment_graph-image img {
+    width: 100%;
+  }
+
+  .OA_page-treatment_graph-container {
+    gap: 15px;
   }
 }
 
@@ -1775,6 +1938,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .OA_page_treatment-flowchart img {
     margin-top: -15px;
+  }
+
+  .OA_page-treatment_graph-container {
+    flex-direction: row;
+    gap: 15px;
   }
 }
 
@@ -1974,6 +2142,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .OA_page-gradient_container {
     padding-top: 50px;
     padding-bottom: 25px;
+  }
+
+  .OA_page-treatment_graph-container {
+    gap: 30px;
+  }
+
+  .OA_page-treatment_graph {
+    padding-top: 35px;
   }
 }
 

@@ -2154,6 +2154,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .OA_page-treatment_graph {
     padding-top: 35px;
   }
+
+  .section3__container .section3__cards .primary-btn {
+    padding: 14px 40px;
+  }
 }
 
 @media (max-width: 660px) {

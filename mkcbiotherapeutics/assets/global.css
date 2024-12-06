@@ -2174,4 +2174,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .mobile_hide {
     display: none;
   }
+
+  .aboutpage_section3 .aboutpage-cards {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }

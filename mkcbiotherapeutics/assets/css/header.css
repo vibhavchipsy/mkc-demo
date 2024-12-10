@@ -28,6 +28,7 @@
   list-style: none;
   padding: 0;
   gap: 15px;
+  margin: 0;
 }
 
 .menu li a {
@@ -52,7 +53,7 @@
 }
 
 .menu li a:hover:after {
-  width: 100%;
+  width: 0%;
 }
 
 .open-menu,
@@ -136,6 +137,7 @@
   .menu li a {
     padding: 10px;
     color: white;
+    width: 100%;
   }
 
   .open-menu,
@@ -157,6 +159,33 @@
     background-color: #000;
     transition: 0.15s ease-in-out;
   }
+
+  .submenu {
+    background-color: #f9f9f9;
+  }
+
+  .submenu {
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+  .submenu li {
+    padding: 8px 0px 8px 14px;
+    background-color: #DDF3F6;
+    border-radius: 3px;
+  }
+
+  .submenu li:hover {
+    background-color: #008CCD;
+  }
+
+  .submenu li:hover a {
+    color: white;
+  }
+
+  .submenu-parent:hover>.submenu {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -172,5 +201,77 @@
   .close-menu {
     top: 11.5%;
     right: 4.5%;
+  }
+}
+
+/* General Menu Styles */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+  /* Ensure submenus position relative to parent */
+}
+
+/* Submenu Styling */
+.submenu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  /* Avoid affecting parent layout */
+  left: 0;
+  /* Align submenu with parent */
+  top: 100%;
+  /* Position below the parent item */
+  width: 200px;
+  /* Adjust as needed for submenu width */
+  z-index: 10;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional */
+}
+
+/* Show submenu when parent is active */
+.submenu-parent.active .submenu {
+  display: block;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 998px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .submenu {
+    position: relative;
+    /* For mobile, allow submenus to stack */
+    left: auto;
+    top: auto;
+    width: 100%;
+    /* Full width for better readability */
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .submenu-parent.active .submenu {
+    display: block;
+    /* Ensure visibility */
+    margin-left: 0;
+    /* Avoid side pushing */
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menu li a {
+    text-align: left;
+  }
+
+  .menu li a:hover:after {
+    width: 90%;
   }
 }

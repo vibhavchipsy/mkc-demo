@@ -36,8 +36,24 @@
       <input type="checkbox" id="check" />
       <ul class="menu">
         <li><a href="/pages/about.html">About Us</a></li>
-        <li><a href="/pages/our-science.html">Our Science</a></li>
-        <li><a href="/pages/osteoarthritis-of-the-knee.html">Clinicians & Patients</a></li>
+        <li class="submenu-parent">
+          <a>Our Science</a>
+          <ul class="submenu">
+            <li><a href="/pages/biotechnology.html">Overview</a></li>
+            <li><a href="/pages/clinical-research.html">Regenerative Medicine</a></li>
+            <li><a href="/pages/clinical-research.html">Mechanism of Action</a></li>
+            <li><a href="/pages/clinical-research.html">Technology Platform</a></li>
+            <li><a href="/pages/clinical-research.html">CMC & Manufacturing</a></li>
+            <li><a href="/pages/clinical-research.html">Publications</a></li>
+          </ul>
+        </li>
+        <li class="submenu-parent">
+          <a>Clinicians & Patients</a>
+          <ul class="submenu">
+            <li><a href="/pages/biotechnology.html">Biotechnology</a></li>
+            <li><a href="/pages/clinical-research.html">Clinical Research</a></li>
+          </ul>
+        </li>
         <li><a href="">Partners & Investors</a></li>
         <li><a href="/pages/contact.html">Careers & Contact Us</a></li>
         <label for="check" class="close-menu">
@@ -51,9 +67,6 @@
         </label>
         <!-- </span> -->
       </ul>
-      <li class="header__btn display_none">
-        <button class="primary-btn">Enquire</button>
-      </li>
       <label for="check" class="open-menu">
         <svg aria-hidden="true" role="presentation"
           class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000"

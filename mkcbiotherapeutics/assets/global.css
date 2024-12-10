@@ -1567,6 +1567,57 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding-top: 15px;
 }
 
+.aboutpage__carouselsection #redundant_id .card7-subcontainer {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0px;
+}
+
+.aboutpage__carouselsection #redundant_id .card7_container {
+  border: none;
+}
+
+.aboutpage__carouselsection .card7-parent_container {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #C5ECFF80;
+}
+
+#redundant_id #panel-1-3 .card7_container::before {
+  border-radius: 0px;
+  background: linear-gradient(180deg, #5FBA8D 0%, #066D8B 100%);
+}
+
+#redundant_id #panel-1-3 {
+  padding-top: 0px;
+}
+
+.aboutpage__carouselsection .card6_icon-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.aboutpage__carouselsection .card7-parent_container .linkedin_icon {
+  justify-content: center;
+  display: flex;
+}
+
+#redundant_id {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutpage__carouselsection #panel-1-3 .card7-parent_container {
+  border-radius: 4px;
+}
+
+.aboutpage__carouselsection #redundant_id .card7__texts-subcontainer .card6_texts-2subcontainer {
+  padding-top: 5px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2294,5 +2345,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .page_subheadings.home-section4 h3 {
     margin: 0;
     padding-top: 25px;
+  }
+
+  .aboutpage__carouselsection #redundant_id .card7-subcontainer {
+    flex-direction: column;
+  }
+
+  .card7__logos-subcontainer {
+    display: flex;
+    justify-content: space-between;
   }
 }

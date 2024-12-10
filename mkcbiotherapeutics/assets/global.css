@@ -146,12 +146,20 @@ p {
   font-size: 24px;
 }
 
+.font-27 {
+  font-size: 27px;
+}
+
 .line_height-24 {
   line-height: 24px;
 }
 
 .text_justify {
   text-align: justify;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .container__sidemargin {
@@ -1514,6 +1522,51 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   width: 100%;
 }
 
+.homepage-partners_and_investors-new .bulletins_custom {
+  min-width: 10px;
+  max-width: 10px;
+}
+
+.homepage-partners_and_investors-new .bulletins_subcontainer {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.homepage-partners_and_investors-new .bulletins_container {
+  padding-top: 15px;
+}
+
+.homepage-partners_and_investors-new .bulletins_container,
+.homepage-partners_and_investors-new .bulletins_subcontainers {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.homepage-partners_and_investors-new .bulletins_subcontainer .bulletins_custom {
+  border-radius: 50px;
+}
+
+.homepage-partners_and_investors-new .button_container {
+  display: flex;
+  justify-content: end;
+  padding: 35px 0 0px 0;
+}
+
+.homepage-partners_and_investors-new .button_container .primary-btn {
+  padding: 12px 24px;
+}
+
+.homepage-partners_and_investors-new .partners_investors-imgcontainer .bulletins_subcontainer img {
+  width: unset;
+}
+
+.homepage-partners_and_investors-new .absolute-container .card5__para1 {
+  padding-top: 15px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -1670,15 +1723,19 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     position: absolute;
   }
 
+  .homepage-partners_and_investors-new .card5__container {
+    position: unset;
+  }
+
   .card5__container.container1 {
     width: 28%;
-    top: 5%;
+    top: 10%;
     right: 10%;
   }
 
   .card5__container.container2 {
     width: 45%;
-    top: 18%;
+    top: 10%;
     left: 5%;
   }
 
@@ -1733,6 +1790,21 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   #tab-section-1 #panel-1-3 .tabcontent {
     gap: 0;
   }
+
+  .homepage-partners_and_investors-new .absolute-container {
+    position: absolute;
+    top: 6%;
+    display: flex;
+    gap: 40px;
+  }
+
+  .homepage-partners_and_investors-new .card5__container.container1 {
+    width: 50%;
+  }
+
+  .homepage-partners_and_investors-new .card5__container.container2 {
+    width: 50%;
+  }
 }
 
 @media (max-width: 990px) {
@@ -1765,6 +1837,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .OA_page-treatment_graph-container {
     gap: 15px;
+  }
+
+  .container2 .button_container {
+    padding: 0;
   }
 }
 
@@ -2171,6 +2247,27 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .page_subheadings.home-section4 h3 {
     padding-top: 75px;
+  }
+
+  .homepage-partners_and_investors-new .about__mkc--texts {
+    width: 100%;
+  }
+
+  .partners_investors-imgcontainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .homepage-partners_and_investors-new .button_container {
+    padding: 35px 0 0px 0;
+  }
+
+  .homepage-partners_and_investors-new .container2 .button_container {
+    padding-top: 52px;
+  }
+
+  .homepage_partners_and_investors-graph {
+    padding-bottom: 130px;
   }
 }
 

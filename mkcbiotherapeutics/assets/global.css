@@ -1688,6 +1688,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .OA_page-treatment_graph .OA_page-treatment_graph-accordion {
     flex: 1;
   }
+
+  .section4__container {
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .green-element {
@@ -1924,7 +1929,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .section3__container {
     flex-direction: row;
-    padding-top: 25px;
+    padding-top: 50px;
     justify-content: space-between;
   }
 
@@ -1938,6 +1943,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .section4__container .about__mkc--texts {
     width: 56%;
+  }
+
+  .OA_page.section4__container .about__mkc--texts {
+    width: 60%;
   }
 
   .section4__cards {
@@ -2319,6 +2328,19 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .homepage_partners_and_investors-graph {
     padding-bottom: 130px;
+  }
+
+  .section4__container {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .cards_container {
+    padding-top: 100px;
+  }
+
+  .OA_page.section4__container .about__mkc--texts p {
+    margin: 0;
   }
 }
 

@@ -236,7 +236,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .card2__container {
@@ -1510,10 +1510,15 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding-top: 20px;
 }
 
+.section4__container-image img {
+  width: 100%;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
-  .section4__container .section4__cards {
+  .section4__container .section4__cards,
+  .section4__container-image {
     flex: 1;
   }
 
@@ -1805,7 +1810,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .section4__container .about__mkc--texts {
-    width: 50%;
+    width: 56%;
   }
 
   .section4__cards {
@@ -2163,6 +2168,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .section3__container .section3__cards .primary-btn {
     padding: 14px 40px;
   }
+
+  .page_subheadings.home-section4 h3 {
+    padding-top: 75px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -2183,5 +2192,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     gap: 10px;
     display: flex;
     flex-direction: column;
+  }
+
+  .page_subheadings.home-section4 h3 {
+    margin: 0;
+    padding-top: 25px;
   }
 }

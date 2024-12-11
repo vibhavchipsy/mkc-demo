@@ -16,6 +16,7 @@ body {
   --color6: #444746;
   --color7: #48B1A9;
   --color8: #60BA8E;
+  --color9: #3198B6;
 }
 
 .color1-color {
@@ -1402,8 +1403,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 /* Accordion Item */
 .accordion-item {
-  box-shadow: 0px 0px 10px 0px #299CD41A;
+  box-shadow: 0px 0px 7.41px 0px #1283D633;
   border: 1px solid #FFFFFF80;
+  background-color: white;
+  border-radius: 4px;
 }
 
 .accordion-item:not(:last-child) {
@@ -1616,6 +1619,140 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .aboutpage__carouselsection #redundant_id .card7__texts-subcontainer .card6_texts-2subcontainer {
   padding-top: 5px;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 8px;
+}
+
+.accordion-title .title {
+  align-items: center;
+  display: flex;
+}
+
+.accordion-title .serial-number {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.accordion-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.accordion-btn {
+  padding: 7px 12px;
+  background-color: #F1F3FA;
+  border-radius: 2px;
+}
+
+.accordion-btns p {
+  margin: 0;
+}
+
+.accordion-item.open .accordion-title {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+}
+
+.accordion-item.open .accordion-title .title {
+  color: white;
+}
+
+.accordion_btns-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-links {
+  padding-right: 15px;
+}
+
+.publications_section1 {
+  padding-top: 30px;
+}
+
+.accordion_title-left {
+  display: flex;
+  gap: 10px;
+}
+
+.accordion_icon-plus {
+  display: block;
+}
+
+.accordion_icon-minus {
+  display: none;
+}
+
+.accordion-item.open .accordion_icon-plus {
+  display: none;
+}
+
+.accordion-item.open .accordion_icon-minus {
+  display: flex;
+}
+
+.accordion_author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.tui-page-btn {
+  text-decoration: none;
+  color: black;
+  background: white;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tui-page-btn.tui-next-is-ellip.tui-last-child {
+  background: unset;
+}
+
+.tui-page-btn.tui-is-selected {
+  background-color: var(--color5);
+  color: white;
+}
+
+.tui-ico-first {
+  transform: rotate(180deg);
+}
+
+.tui-ico-first,
+.tui-ico-prev,
+.tui-ico-next,
+.tui-ico-last {
+  height: 100%;
+  align-items: center;
+  display: flex;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -2093,6 +2230,22 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     flex-direction: row;
     gap: 15px;
   }
+
+  .accordion-btns {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .accordion_title-right {
+    padding-right: 10px;
+    padding-left: 16px;
+    border-left: 1px solid #3198B6;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
 }
 
 @media (min-width: 990px) {
@@ -2345,6 +2498,20 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .desktop_hidden {
     display: none;
+  }
+
+  .accordion_btns-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .publications_section1 {
+    padding-top: 60px;
+  }
+
+  #pagination {
+    padding-top: 40px;
   }
 }
 

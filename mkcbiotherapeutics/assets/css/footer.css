@@ -121,6 +121,10 @@
   padding: 0px 10px;
 }
 
+#footer {
+  padding-top: 30px;
+}
+
 @media (min-width: 768px) {
   .footer__top-container {
     flex-direction: row;

@@ -2342,6 +2342,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .OA_page.section4__container .about__mkc--texts p {
     margin: 0;
   }
+
+  .desktop_hidden {
+    display: none;
+  }
 }
 
 @media (max-width: 660px) {

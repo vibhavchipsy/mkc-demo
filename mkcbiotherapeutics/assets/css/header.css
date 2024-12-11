@@ -71,7 +71,7 @@
 }
 
 .close-menu {
-  top: 65px;
+  top: 20px;
   right: 35px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .close-menu svg path {
-  fill: white;
+  fill: black;
 }
 
 #check {
@@ -199,7 +199,7 @@
   }
 
   .close-menu {
-    top: 11.5%;
+    top: 3.5%;
     right: 4.5%;
   }
 }
@@ -279,5 +279,10 @@
 
   .menu li a:hover:after {
     width: 90%;
+  }
+
+  .mobile_logo {
+    width: 95%;
+    padding-top: 20px;
   }
 }

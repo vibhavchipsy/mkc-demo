@@ -40,7 +40,21 @@ function handleAnchorNavigation() {
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: "smooth" });
       }
+
+      // Handle navigation to tab panels (if the hash is for a tab)
+      if (hash.includes("panel-")) {
+        document.querySelector(".tabs").scrollIntoView({ behavior: "smooth" });
+        activateTab(hash);
+      }
     }
+  }
+
+  // Function to activate the tab based on hash
+  function activateTab(hash) {
+    const tabId = hash.replace("#", ""); // Get the tab ID from the hash (e.g., tab-1)
+    console.log(tabId);
+    // document.querySelector('[data-tab-panel="tabId"]').click();
+    document.querySelector(`[data-tab="${tabId}"]`).click();
   }
 
   // Add event listener to handle navigation on page load

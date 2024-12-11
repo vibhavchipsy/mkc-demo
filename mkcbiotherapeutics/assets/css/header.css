@@ -70,8 +70,8 @@
 }
 
 .close-menu {
-  top: 20px;
-  right: 35px;
+  top: 35px;
+  right: 15px;
 }
 
 .open-menu svg,
@@ -116,6 +116,10 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.submenu li a {
+  color: black;
 }
 
 @media (max-width: 998px) {
@@ -212,8 +216,8 @@
   }
 
   .close-menu {
-    top: 3.5%;
-    right: 4.5%;
+    top: 7%;
+    right: 3%;
   }
 }
 
@@ -297,5 +301,13 @@
   .mobile_logo {
     width: 95%;
     padding-top: 20px;
+  }
+
+  .mobile_logo a {
+    display: inline-block;
+  }
+
+  .mobile_logo img {
+    width: 200px;
   }
 }

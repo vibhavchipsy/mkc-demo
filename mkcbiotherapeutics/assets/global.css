@@ -1639,7 +1639,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 .accordion-title .serial-number {
-  width: 40px;
+  min-width: 40px;
   height: 40px;
   justify-content: center;
   display: flex;

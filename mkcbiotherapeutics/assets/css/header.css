@@ -160,6 +160,9 @@
 @media (min-width: 998px) {
   .menu .submenu-parent a {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
   }
 
   .menu li a::after {

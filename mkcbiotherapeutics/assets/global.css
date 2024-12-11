@@ -2065,6 +2065,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .container2 .button_container {
     padding: 0;
   }
+
+  .mobile_tablet_hide {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {

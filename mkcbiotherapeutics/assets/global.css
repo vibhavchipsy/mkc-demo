@@ -16,14 +16,14 @@ body {
   --primary-color: #57b38e;
   --secondary-color: #066d8b;
   --color1: #fd7401;
-  --color2: #0A708C;
-  --color3: #086F8C;
-  --color4: #076E8C;
+  --color2: #0a708c;
+  --color3: #086f8c;
+  --color4: #076e8c;
   --color5: #5fba8d;
   --color6: #444746;
-  --color7: #48B1A9;
-  --color8: #60BA8E;
-  --color9: #3198B6;
+  --color7: #48b1a9;
+  --color8: #60ba8e;
+  --color9: #3198b6;
 }
 
 .color1-color {
@@ -168,6 +168,10 @@ p {
 
 .justify-center {
   justify-content: center;
+}
+
+.cursor_pointer {
+  cursor: pointer;
 }
 
 .container__sidemargin {
@@ -671,7 +675,7 @@ h3 {
   gap: 10px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 37.18px 0px #299CD433;
+  box-shadow: 0px 0px 37.18px 0px #299cd433;
 }
 
 .aboutpage_section3 .card6_texts-1subcontainer {
@@ -1049,7 +1053,7 @@ h3 {
 }
 
 .our_science_pageTabBtn-container {
-  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1159,7 +1163,7 @@ h3 {
 }
 
 #panel-1-2 .tab_section2_caption-container {
-  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   padding: 12px 0;
   border-radius: 4px;
 }
@@ -1173,7 +1177,7 @@ h3 {
 }
 
 .card7-absGradient {
-  background: linear-gradient(165.92deg, #56B28D -2.79%, #0B718C 105.79%);
+  background: linear-gradient(165.92deg, #56b28d -2.79%, #0b718c 105.79%);
   width: 6px;
   height: 80px;
 }
@@ -1181,7 +1185,7 @@ h3 {
 #panel-1-3 .card7_container {
   position: relative;
   display: flex;
-  border: 1px solid #C5ECFF80;
+  border: 1px solid #c5ecff80;
   border-radius: 4px;
 }
 
@@ -1190,7 +1194,7 @@ h3 {
   content: "";
   width: 100%;
   height: 100%;
-  background: linear-gradient(165.92deg, #56B28D -2.79%, #0B718C 105.79%);
+  background: linear-gradient(165.92deg, #56b28d -2.79%, #0b718c 105.79%);
   border-radius: 4px;
 }
 
@@ -1224,7 +1228,7 @@ h3 {
 }
 
 .OA_page_gradient-subcontainer {
-  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   border-radius: 4px;
 }
 
@@ -1272,7 +1276,7 @@ h3 {
 }
 
 .OA_page_basecase_usecase-subcontainer {
-  border: 1px dashed #70DFFF;
+  border: 1px dashed #70dfff;
   border-radius: 4px;
   padding: 15px;
   display: flex;
@@ -1281,7 +1285,7 @@ h3 {
 }
 
 .OA_page .basecase_usecase-title {
-  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   padding: 15px;
   border-radius: 4px;
 }
@@ -1295,7 +1299,7 @@ h3 {
 }
 
 .OApage-divider {
-  border: 1px dashed #299CD433;
+  border: 1px dashed #299cd433;
 }
 
 hr.OA_page.OApage-divider.OApage_divider-3 {
@@ -1304,7 +1308,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 .OA_page-guidelines {
-  background: linear-gradient(90deg, #5FBA8D 0%, #066D8B 100%);
+  background: linear-gradient(90deg, #5fba8d 0%, #066d8b 100%);
   border-radius: 4px;
   padding: 15px;
   position: relative;
@@ -1322,7 +1326,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 .OA_page_guidelines-subcontainer.divider hr {
-  border: 1px dashed #FFFFFF80;
+  border: 1px dashed #ffffff80;
   margin: 10px 0px 14px 0px;
 }
 
@@ -1333,16 +1337,16 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .OA_guidelines-childsubcontainer {
   padding: 10px 15px;
-  background: #FFFFFF1A;
+  background: #ffffff1a;
   border-radius: 4px;
   gap: 10px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #FFFFFF80;
+  border: 1px solid #ffffff80;
 }
 
 .OA_guidelines-childsubcontainer hr {
-  border: 1px dashed #299CD433;
+  border: 1px dashed #299cd433;
 }
 
 .OA_guidelines-childsubcontainer .guidlines_1child {
@@ -1381,7 +1385,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 .OA_page-treatment_guidelines-container {
-  border: 1px dashed #70DFFF;
+  border: 1px dashed #70dfff;
   border-radius: 4px;
   padding: 10px;
 }
@@ -1409,8 +1413,8 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 /* Accordion Item */
 .accordion-item {
-  box-shadow: 0px 0px 7.41px 0px #1283D633;
-  border: 1px solid #FFFFFF80;
+  box-shadow: 0px 0px 7.41px 0px #1283d633;
+  border: 1px solid #ffffff80;
   background-color: white;
   border-radius: 4px;
 }
@@ -1458,7 +1462,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 .accordion-body .accordion-bulletins-container {
-  border-top: 1px solid #1991CB33;
+  border-top: 1px solid #1991cb33;
   padding-top: 10px;
   margin: 0;
 }
@@ -1487,7 +1491,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  border: 0.44px solid #FFFFFF80;
+  border: 0.44px solid #ffffff80;
 }
 
 .accordion-icon {
@@ -1509,7 +1513,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 .accordion .caption-container {
   margin-top: 10px;
   padding: 15px;
-  background: #F7F9FB;
+  background: #f7f9fb;
 }
 
 .OA_page-graph-heading {
@@ -1568,7 +1572,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding: 12px 24px;
 }
 
-.homepage-partners_and_investors-new .partners_investors-imgcontainer .bulletins_subcontainer img {
+.homepage-partners_and_investors-new
+  .partners_investors-imgcontainer
+  .bulletins_subcontainer
+  img {
   width: unset;
 }
 
@@ -1590,12 +1597,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 .aboutpage__carouselsection .card7-parent_container {
   padding: 10px;
   background-color: white;
-  border: 1px solid #C5ECFF80;
+  border: 1px solid #c5ecff80;
 }
 
 #redundant_id #panel-1-3 .card7_container::before {
   border-radius: 0px;
-  background: linear-gradient(180deg, #5FBA8D 0%, #066D8B 100%);
+  background: linear-gradient(180deg, #5fba8d 0%, #066d8b 100%);
 }
 
 #redundant_id #panel-1-3 {
@@ -1623,7 +1630,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   border-radius: 4px;
 }
 
-.aboutpage__carouselsection #redundant_id .card7__texts-subcontainer .card6_texts-2subcontainer {
+.aboutpage__carouselsection
+  #redundant_id
+  .card7__texts-subcontainer
+  .card6_texts-2subcontainer {
   padding-top: 5px;
 }
 
@@ -1662,7 +1672,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .accordion-btn {
   padding: 7px 12px;
-  background-color: #F1F3FA;
+  background-color: #f1f3fa;
   border-radius: 2px;
 }
 
@@ -1782,7 +1792,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
-
   .section4__container .about__mkc--texts,
   .section4__container .section4__cards,
   .section4__container-image {
@@ -1896,9 +1905,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .aboutpage_section2 .card7__subcontainer.card7__subcontainer1 {
   font-size: 30px;
-  background: linear-gradient(174.57deg,
-      rgba(41, 156, 212, 0.1) 4.15%,
-      rgba(255, 255, 255, 0) 96.3%);
+  background: linear-gradient(
+    174.57deg,
+    rgba(41, 156, 212, 0.1) 4.15%,
+    rgba(255, 255, 255, 0) 96.3%
+  );
   border: 1px solid #ffffff80;
   color: #4dab92;
   padding: 15px 26px;
@@ -2273,7 +2284,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .accordion_title-right {
     padding-right: 10px;
     padding-left: 16px;
-    border-left: 1px solid #3198B6;
+    border-left: 1px solid #3198b6;
     height: 56px;
     align-items: center;
     display: flex;

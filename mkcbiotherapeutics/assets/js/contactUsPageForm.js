@@ -10,7 +10,7 @@ form.addEventListener("submit", async (e) => {
   const formData = new FormData(form);
   const data = Object.fromEntries(formData.entries());
   const googleAppScriptURL =
-    "https://script.google.com/macros/s/AKfycbzkDia6W6FgCVPkbKPAgaoywnEJJKfjNTyt9B-l8k06HXQQ7zcQzJSiURrO1L53b-8I/exec";
+    "https://script.google.com/macros/s/AKfycbxywFAWAQCvQ4BHLae-zHdT3JFXfOLVO2V-fd2f4O4sTvFUMte046oqn8YLM0XhvD8g/exec";
 
   try {
     const response = await fetch(

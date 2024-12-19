@@ -1,32 +1,44 @@
-document.querySelector(".contactus_form").addEventListener("submit", async function (event) {
-    event.preventDefault(); // Prevent default form submission
+const form = document.getElementById("contactus_formID");
+const submitButton = document.querySelector("#formSubmitBtn");
 
-    const form = event.target;
-    const formData = new FormData(form);
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  // Change the button text to "Submitting..." and disable it
+  submitButton.textContent = "Submitting...";
+  submitButton.disabled = true;
 
-    // Convert FormData to JSON
-    const jsonData = Object.fromEntries(formData.entries());
+  const formData = new FormData(form);
+  const data = Object.fromEntries(formData.entries());
+  const googleAppScriptURL =
+    "https://script.google.com/macros/s/AKfycbz9wp14lsAdDoO0CpDFL2WSkAVN9zyP6jCDb8fQral6sOzN8bUgGqX45AjoTcq6vQc/exec";
 
-    // Send data to Google Apps Script
-    try {
-        const response = await fetch(form.action, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(jsonData) // Send the form data as a JSON string
-        });
+  try {
+    const response = await fetch(
+      googleAppScriptURL, // Replace with your Web App URL
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8",
+          Host: "script.google.com",
+        },
+        body: JSON.stringify(data),
+      }
+    );
 
-        const responseData = await response.json(); // Parse JSON response
-
-        if (responseData.status === "success") {
-            alert("Your message has been sent!");
-            form.reset(); // Clear the form
-        } else {
-            alert("Failed to send your message. Please try again.");
-        }
-    } catch (error) {
-        alert("An error occurred while sending your message.");
-        console.error(error);
+    const result = await response.json();
+    if (result.status === "success") {
+      alert("Email sent successfully!");
+      form.reset();
+    } else {
+      alert("Failed to send email: " + result.message);
+      form.reset();
     }
+  } catch (error) {
+    console.error(error);
+    alert("An error occurred while sending the email.");
+  } finally {
+    // Restore the button to its original state
+    submitButton.textContent = "Send Message";
+    submitButton.disabled = false;
+  }
 });

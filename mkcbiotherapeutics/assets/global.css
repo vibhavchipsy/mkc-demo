@@ -1572,10 +1572,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding: 12px 24px;
 }
 
-.homepage-partners_and_investors-new
-  .partners_investors-imgcontainer
-  .bulletins_subcontainer
-  img {
+.homepage-partners_and_investors-new .partners_investors-imgcontainer .bulletins_subcontainer img {
   width: unset;
 }
 
@@ -1630,10 +1627,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   border-radius: 4px;
 }
 
-.aboutpage__carouselsection
-  #redundant_id
-  .card7__texts-subcontainer
-  .card6_texts-2subcontainer {
+.aboutpage__carouselsection #redundant_id .card7__texts-subcontainer .card6_texts-2subcontainer {
   padding-top: 5px;
 }
 
@@ -1792,6 +1786,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
+
   .section4__container .about__mkc--texts,
   .section4__container .section4__cards,
   .section4__container-image {
@@ -1905,11 +1900,9 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .aboutpage_section2 .card7__subcontainer.card7__subcontainer1 {
   font-size: 30px;
-  background: linear-gradient(
-    174.57deg,
-    rgba(41, 156, 212, 0.1) 4.15%,
-    rgba(255, 255, 255, 0) 96.3%
-  );
+  background: linear-gradient(174.57deg,
+      rgba(41, 156, 212, 0.1) 4.15%,
+      rgba(255, 255, 255, 0) 96.3%);
   border: 1px solid #ffffff80;
   color: #4dab92;
   padding: 15px 26px;
@@ -2299,6 +2292,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .news_container-image img {
     width: unset;
+  }
+
+  .our_science_page-tabsection {
+    padding-top: 45px;
   }
 }
 

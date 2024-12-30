@@ -1790,6 +1790,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   gap: 10px;
 }
 
+.about__mkc-maincontainer {
+  padding-bottom: 25px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2306,6 +2310,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .home.section4__container .btn__readmore {
     margin-top: 15px;
   }
+
+  .about__mkc-maincontainer {
+    padding-bottom: 45px;
+  }
 }
 
 @media (min-width: 990px) {
@@ -2581,6 +2589,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .news_container {
     padding-top: 60px;
   }
+
+  .homepage_news-section h3 {
+    margin-top: 0px;
+  }
+
+  .homepage_news-section {
+    padding-bottom: 55px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -2615,5 +2631,15 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .card7__logos-subcontainer {
     display: flex;
     justify-content: space-between;
+  }
+
+  .home.contactus_section {
+    margin-bottom: -30px;
+  }
+}
+
+@media (min-width: 661px) {
+  .home.contactus_section {
+    margin-bottom: -80px;
   }
 }

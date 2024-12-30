@@ -35,7 +35,7 @@
 
 .footer__bottom-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   color: white;
   gap: 20px;
   padding-top: 24px;
@@ -139,7 +139,7 @@
   }
 
   .footer__bottom-container {
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-top: 38px;
     padding-bottom: 38px;
   }

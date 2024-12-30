@@ -2434,7 +2434,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .our_science_page-section1 .about__mkc--texts {
     width: 54.1%;
-    padding-top: 15px;
   }
 
   #tab-section-1 .tab-button.active svg g path {
@@ -2596,6 +2595,15 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .homepage_news-section {
     padding-bottom: 55px;
+  }
+
+  .our_science_page-section1 .about__mkc--image img {
+    width: unset;
+  }
+
+  .our_science_page-section1 {
+    justify-content: space-between;
+    align-items: center;
   }
 }
 

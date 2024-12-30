@@ -1785,6 +1785,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding-top: 30px;
 }
 
+.homepage_news-section .card3__texts-container {
+  padding: 10px 0px 10px 0px;
+  gap: 10px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2297,6 +2302,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .our_science_page-tabsection {
     padding-top: 45px;
   }
+
+  .home.section4__container .btn__readmore {
+    margin-top: 15px;
+  }
 }
 
 @media (min-width: 990px) {
@@ -2389,7 +2398,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .card1__container:hover .learmore_btn {
     display: block;
-    width: 45%;
+    width: fit-content;
   }
 
   .card1__container:hover .learmore_text {
@@ -2506,7 +2515,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .section3__container .section3__cards .primary-btn {
-    padding: 14px 40px;
+    padding: 12px 40px;
   }
 
   .page_subheadings.home-section4 h3 {

@@ -315,3 +315,9 @@
     width: 200px;
   }
 }
+
+@media (min-width: 1200px) {
+  .menu {
+    gap: 25px;
+  }
+}

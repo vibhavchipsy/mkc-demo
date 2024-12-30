@@ -2097,6 +2097,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .home.banner__image {
+    margin-right: -40px;
+  }
+
+  .home .about__mkc--image {
+    margin-right: -35px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -2370,7 +2378,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .mkc__team-cards {
-    gap: 60px;
+    gap: 45px;
   }
 
   .mkc__team-card {
@@ -2612,6 +2620,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .our_science_page-section1 {
     justify-content: space-between;
     align-items: center;
+  }
+
+  .home .mkc__team-card {
+    margin-left: 40px;
   }
 }
 

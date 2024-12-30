@@ -25,7 +25,7 @@ export function renderAccordionItem(container, item, serialNumber) {
     </div>
     <div class="accordion-content" style="display: none;">
       <p>${item.content}</p>
-      <p class="accordion_author"><img src="/mkcbiotherapeutics/assets/icons/author.svg" />Author - ${item.author}</p>
+      <p class="accordion_author"><img src="/mkcbiotherapeutics/assets/icons/author.svg" />Journal, Author - ${item.author}</p>
       <div class="accordion_btns-container">
         <div class="accordion-btns">
 

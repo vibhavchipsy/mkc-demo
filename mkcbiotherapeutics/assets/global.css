@@ -2662,6 +2662,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     padding-top: 10px;
     line-height: 25px;
   }
+
+  .aboutpage_section2 .about__mkc--texts {
+    padding-top: 30px;
+  }
 }
 
 @media (max-width: 660px) {

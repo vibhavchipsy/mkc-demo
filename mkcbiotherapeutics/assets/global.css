@@ -2656,6 +2656,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .homepage-partners_and_investors-new .absolute-container {
     flex-direction: column;
   }
+
+  .aboutpage_section2 .about__mkc--para p {
+    margin: 0;
+    padding-top: 10px;
+    line-height: 25px;
+  }
 }
 
 @media (max-width: 660px) {

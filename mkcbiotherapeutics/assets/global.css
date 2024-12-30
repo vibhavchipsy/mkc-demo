@@ -1794,6 +1794,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding-bottom: 25px;
 }
 
+.newspage .news_date {
+  padding-top: 10px;
+}
+
+.newspage .news_date .icon {
+  display: flex;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,

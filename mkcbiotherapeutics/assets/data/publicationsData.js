@@ -1,6 +1,15 @@
 export const data = [
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
+        "content": "Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
+        "author": "Stem Cells Translational Medicine - Gupta Pawan, Dutta Santanu, Kala Sanjay, Krishna Murali, Desai Sanjay, Mahapatra Subhendu, Dhar Anita, Radhakrishnan R, Rajkumar M, Behera Arunanshu, P Shivashankar, Seetharam R, Viswanathan Pachaiyappan, Chandrashekar Mithun, Thej Charan, Prasanth K, Abraham Jijy, Boggarapu Hema, Kolkundkar Udaykumar.",
+        "year": 2021,
+        "impactFactor": NaN,
+        "impactFactor2019": 6.262,
+        "referenceLink": "https://www.eurekaselect.com/195480/article"
+    },
+    {
+        "title": "Stempeucel\u00ae Critical Limb Ischemia",
         "content": "Development of a surrogate potency assay to determine the angiogenic activity of Stempeucel\u00ae, a pooled, ex-vivo expanded, allogeneic human bone marrow mesenchymal stromal cell product.",
         "author": "Stem Cell Research & Therapy - Charan Thej, Balamurugan Ramadasse, Ankita Walvekar, Anish S Majumdar, Sudha Balasubramanian",
         "year": 2017,
@@ -52,15 +61,6 @@ export const data = [
         "impactFactor": 0.169,
         "impactFactor2019": 0.477,
         "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/23133150/"
-    },
-    {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
-        "author": "Stem Cells Translational Medicine - Gupta Pawan, Dutta Santanu, Kala Sanjay, Krishna Murali, Desai Sanjay, Mahapatra Subhendu, Dhar Anita, Radhakrishnan R, Rajkumar M, Behera Arunanshu, P Shivashankar, Seetharam R, Viswanathan Pachaiyappan, Chandrashekar Mithun, Thej Charan, Prasanth K, Abraham Jijy, Boggarapu Hema, Kolkundkar Udaykumar.",
-        "year": 2021,
-        "impactFactor": NaN,
-        "impactFactor2019": 6.262,
-        "referenceLink": "https://www.eurekaselect.com/195480/article"
     },
 ]
 

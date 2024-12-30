@@ -524,6 +524,7 @@ h3 {
 
 .homepage_news-section .news-bottomcards .card4__container {
   display: flex;
+  flex: 1;
   flex-direction: column;
   background-color: white;
   border-radius: 4px;
@@ -801,7 +802,7 @@ h3 {
 .cards7__container {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 13px;
   position: relative;
   padding-top: 20px;
   padding-right: 20px;
@@ -813,12 +814,12 @@ h3 {
 
 .aboutpage_section2 .card7__container {
   background-color: white;
-  padding: 16px 15px;
+  padding: 6px 7px;
 }
 
 .gradient_absimage {
   position: absolute;
-  top: 0;
+  top: 9px;
   right: -5px;
   z-index: -1;
 }

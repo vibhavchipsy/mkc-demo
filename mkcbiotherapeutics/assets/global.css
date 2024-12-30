@@ -2098,7 +2098,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     padding-right: 0px;
   }
 
-  .home.banner__image {
+  .home .banner__image {
     margin-right: -40px;
   }
 
@@ -2625,6 +2625,16 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .home .mkc__team-card {
     margin-left: 40px;
   }
+
+  .home .abs_BannerImage {
+    top: 9%;
+    right: -3.5%;
+    position: absolute;
+  }
+
+  .home.banner__container {
+    position: relative;
+  }
 }
 
 @media (max-width: 660px) {
@@ -2669,5 +2679,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 @media (min-width: 661px) {
   .home.contactus_section {
     margin-bottom: -80px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .hide_small_desktops {
+    display: none;
   }
 }

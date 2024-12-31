@@ -206,6 +206,10 @@ h3 {
   overflow: hidden;
 }
 
+.margin-zero {
+  margin: 0;
+}
+
 .card1__container {
   background-color: white;
   border-radius: 6px;
@@ -1850,6 +1854,19 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding-top: 0px;
 }
 
+.leadership-new_cards {
+  display: flex;
+  gap: 50px;
+}
+
+.leadership-new_cards .table {
+  background-color: white;
+  border-collapse: separate;
+  width: 100%;
+  border-spacing: 0px 20px;
+  padding: 0px 20px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2386,6 +2403,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .OA_page_summary-container {
     padding-top: 0px;
   }
+
+  .leadership-new_cards .name {
+    width: 35%;
+  }
 }
 
 @media (min-width: 990px) {
@@ -2713,6 +2734,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .homepage-partners_and_investors-new .about__mkc--heading h3 {
     margin: 0;
+  }
+
+  .leadership-new_cards .name {
+    width: 25%;
   }
 }
 

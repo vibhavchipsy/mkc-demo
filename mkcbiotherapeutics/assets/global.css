@@ -1645,7 +1645,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  cursor: pointer;
 }
 
 .accordion-content {
@@ -1728,7 +1727,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
 .accordion_author {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 10px;
 }
 

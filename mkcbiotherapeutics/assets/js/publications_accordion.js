@@ -4,13 +4,17 @@ export function renderAccordionItem(container, item, serialNumber) {
 
   accordionItem.classList.add("accordion-item");
 
+  // remove classlist add open to enable accordion functionality
+  accordionItem.classList.add("open");
+
+  //change display block to display none to enable accordion functionality
   accordionItem.innerHTML = `
     <div class="accordion-title">
       <div class="accordion_title-left">
         <div class="bgcolor-5 serial-number font-16 color-white">${serialNumber}</div>
         <div class="title font-18 color3-color">${item.title}</div>
       </div>
-      <div class="accordion_title-right mobile_hide">
+      <div class="accordion_title-right mobile_hide display_none">
         <div class="accordion_icon accordion_icon-plus">
           <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M24.1641 11.5234H13.6172V0.976562C13.6172 0.437207 13.18 0 12.6406 0C12.1013 0 11.6641 0.437207 11.6641 0.976562V11.5234H1.11719C0.577832 11.5234 0.140625 11.9606 0.140625 12.5C0.140625 13.0394 0.577832 13.4766 1.11719 13.4766H11.6641V24.0234C11.6641 24.5628 12.1013 25 12.6406 25C13.18 25 13.6172 24.5628 13.6172 24.0234V13.4766H24.1641C24.7034 13.4766 25.1406 13.0394 25.1406 12.5C25.1406 11.9606 24.7034 11.5234 24.1641 11.5234Z" fill="#5FBA8D"/>
@@ -23,7 +27,8 @@ export function renderAccordionItem(container, item, serialNumber) {
         </div>
       </div>
     </div>
-    <div class="accordion-content" style="display: none;">
+    
+    <div class="accordion-content" style="display: block;">
       <p>${item.content}</p>
       <p class="accordion_author"><img src="/mkcbiotherapeutics/assets/icons/author.svg" />Journal, Author - ${item.author}</p>
       <div class="accordion_btns-container">
@@ -41,21 +46,23 @@ export function renderAccordionItem(container, item, serialNumber) {
       </div>
     </div>
   `;
-  accordionItem
-    .querySelector(".accordion-title")
-    .addEventListener("click", () => {
-      const content = accordionItem.querySelector(".accordion-content");
 
-      // Toggle display of content
-      if (content.style.display === "none") {
-        content.style.display = "block"; // Open the accordion
-        accordionItem.classList.add("open"); // Add the "open" class when content is visible
-      } else {
-        content.style.display = "none"; // Close the accordion
-        accordionItem.classList.remove("open"); // Remove the "open" class when content is hidden
-      }
+  // uncomment below code to emable accordion functionality
+  // accordionItem
+  //   .querySelector(".accordion-title")
+  //   .addEventListener("click", () => {
+  //     const content = accordionItem.querySelector(".accordion-content");
 
-    });
+  //     // Toggle display of content
+  //     if (content.style.display === "none") {
+  //       content.style.display = "block"; // Open the accordion
+  //       accordionItem.classList.add("open"); // Add the "open" class when content is visible
+  //     } else {
+  //       content.style.display = "none"; // Close the accordion
+  //       accordionItem.classList.remove("open"); // Remove the "open" class when content is hidden
+  //     }
+
+  //   });
   container.appendChild(accordionItem);
 }
 

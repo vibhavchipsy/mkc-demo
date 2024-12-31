@@ -2639,7 +2639,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .home .abs_BannerImage {
-    top: 9%;
+    top: 2.5%;
     right: -3.5%;
     position: absolute;
   }
@@ -2665,6 +2665,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .aboutpage_section2 .about__mkc--texts {
     padding-top: 30px;
+  }
+
+  .banner__image img {
+    margin-top: -15px;
   }
 }
 

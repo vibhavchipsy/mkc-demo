@@ -577,6 +577,7 @@ h3 {
 .partners_investors-imgcontainer img {
   width: 100%;
   padding-top: 10px;
+  max-height: 750px;
 }
 
 .homepage-partners_and_investors .about__mkc--texts {
@@ -1819,6 +1820,32 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   gap: 10px;
 }
 
+.home .banner-description {
+  font-size: 15px;
+}
+
+.home .banner__container {
+  z-index: 1;
+}
+
+.homepage-partners_and_investors-new .partners-logos img {
+  width: unset;
+}
+
+.homepage-partners_and_investors-new .container2 .button_container {
+  padding: 0;
+}
+
+.homepage-partners_and_investors-new .container1 .button_container {
+  padding-top: 15px;
+}
+
+.newspage-divider {
+  height: 1px;
+  border-top: 1px dotted #99CEFF;
+  margin-top: 50px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2347,6 +2374,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .about__mkc-maincontainer {
     padding-bottom: 45px;
   }
+
+  .homepage_news-section .card4__container {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 990px) {
@@ -2576,7 +2607,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .homepage-partners_and_investors-new .container2 .button_container {
-    padding-top: 52px;
+    padding-top: 15px;
   }
 
   .homepage_partners_and_investors-graph {
@@ -2616,10 +2647,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .news_container {
     gap: 30px;
-  }
-
-  .news_container {
-    padding-top: 60px;
   }
 
   .homepage_news-section h3 {
@@ -2674,6 +2701,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .banner__image img {
     margin-top: -15px;
+  }
+
+  .homepage-partners_and_investors-new .about__mkc--heading h3 {
+    margin: 0;
   }
 }
 

@@ -27,6 +27,15 @@ export const data = [
         "referenceLink": "https://www.sciencedirect.com/science/article/abs/pii/S0976566222000406"
     },
     {
+        "title": "Stempeucel\u00ae Critical Limb Ischemia",
+        "content": "Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
+        "author": "Stem Cells Translational Medicine\n\nGupta Pawan, Dutta Santanu, Kala Sanjay, Krishna Murali, Desai Sanjay, Mahapatra Subhendu, Dhar Anita, Radhakrishnan R, Rajkumar M, Behera Arunanshu, P Shivashankar, Seetharam R, Viswanathan Pachaiyappan, Chandrashekar Mithun, Thej Charan, Prasanth K, Abraham Jijy, Boggarapu Hema, Kolkundkar Udaykumar.",
+        "year": 2021,
+        "impactFactor": NaN,
+        "impactFactor2019": 6.262,
+        "referenceLink": "https://www.eurekaselect.com/195480/article"
+    },
+    {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
         "content": "Human bone marrow-derived, pooled, allogeneic mesenchymal stromal cells manufactured from multiple donors at different time intervals show comparable biological functions, both in vitro and in vivo to repair limb ischemia.",
         "author": "Stem Cell Research & Therapy\n\nCharan Thej*, Sudha Balasubramanian*, Mathiyazhagan Rengasamy, Ankita Walvekar, Priyanka Swamynathan, Swathi Sundar Raj, Pradnya Sahani, Siddikuzzaman, Udaykumar Kolkundkar, Raviraja N Seetharam, Pawan Kumar Gupta, Anish Sen Majumdar.",
@@ -52,15 +61,6 @@ export const data = [
         "impactFactor": null,
         "impactFactor2019": null,
         "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789345/"
-    },
-    {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Administration of Adult Human Bone Marrow Derived, Cultured, Pooled, Allogeneic Mesenchymal Stromal Cells in Critical Limb Ischemia Due to Buerger\u2019s Disease: Phase II Study Report Suggests Clinical Efficacy",
-        "author": "Stem Cells Translational Medicine\n\n\nGupta PK, Dutta S, Krishna M, Sarkar U, Jeyaseelan L, Seetharam NS, Balasubramanian S, Chullikana A, Raju R, Viswanathan P, Thej C, Desai S, Dhar A, Murugesan R, Parakh R, Prasanth KV, Mathiyazhagan R, MajumdarAS",
-        "year": 2016,
-        "impactFactor": 4.672,
-        "impactFactor2019": 6.262,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/28297569/"
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",

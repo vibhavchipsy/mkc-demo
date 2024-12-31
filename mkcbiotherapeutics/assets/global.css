@@ -871,6 +871,7 @@ h3 {
 
 .header_topbar {
   background: linear-gradient(90deg, #066d8b 0%, #5fba8d 100%);
+  max-height: 5px;
 }
 
 .header_topbar-icon img {
@@ -1845,6 +1846,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   margin-top: 50px;
 }
 
+.home .about__mkc--container {
+  padding-top: 0px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2371,7 +2376,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .about__mkc-maincontainer {
-    padding-bottom: 45px;
+    padding-bottom: 0px;
   }
 
   .homepage_news-section .card4__container {
@@ -2674,7 +2679,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .home .abs_BannerImage {
-    top: 2.5%;
+    top: 15%;
     right: -3.5%;
     position: absolute;
   }
@@ -2752,6 +2757,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .home .banner__image {
     margin-left: -20px;
     margin-right: -10px;
+  }
+
+  .home .banner-description {
+    padding-bottom: 20px;
   }
 }
 

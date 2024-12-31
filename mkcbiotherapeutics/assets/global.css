@@ -24,6 +24,7 @@ body {
   --color7: #48b1a9;
   --color8: #60ba8e;
   --color9: #3198b6;
+  --color10: #5bb78d;
 }
 
 .color1-color {
@@ -44,6 +45,10 @@ body {
 
 .color6-color {
   color: var(--color6);
+}
+
+.color10-color {
+  color: var(--color10);
 }
 
 .color-white {
@@ -2708,6 +2713,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .home.contactus_section {
     margin-bottom: -30px;
+  }
+
+  .home .banner__image {
+    margin-left: -20px;
+    margin-right: -10px;
   }
 }
 

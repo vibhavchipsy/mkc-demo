@@ -318,6 +318,10 @@
 
 @media (min-width: 1200px) {
   .menu {
-    gap: 25px;
+    gap: 22px;
+  }
+
+  .menu li a {
+    font-size: 20px;
   }
 }

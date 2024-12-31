@@ -3,7 +3,7 @@ import { renderPage } from "./publications_accordion.js";
 import { setupPagination } from "./publications_pagination.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-    const itemsPerPage = 11; // Items per page
+    const itemsPerPage = 50; // Items per page
     const container = document.getElementById("accordion-container");
 
     // Render initial page

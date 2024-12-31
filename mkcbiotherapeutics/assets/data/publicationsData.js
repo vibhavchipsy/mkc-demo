@@ -1,70 +1,133 @@
 export const data = [
     {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
-        "author": "Stem Cells Translational Medicine - Gupta Pawan, Dutta Santanu, Kala Sanjay, Krishna Murali, Desai Sanjay, Mahapatra Subhendu, Dhar Anita, Radhakrishnan R, Rajkumar M, Behera Arunanshu, P Shivashankar, Seetharam R, Viswanathan Pachaiyappan, Chandrashekar Mithun, Thej Charan, Prasanth K, Abraham Jijy, Boggarapu Hema, Kolkundkar Udaykumar.",
-        "year": 2021,
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Advantages of pooling of human bone marrow-derived mesenchymal stromal cells from different donors versus single-donor MSCs. Scientific Reports. 14, Article number: 12654 (2024). doi.org/10.1038/s41598-024-62544-8",
+        "author": "Suresh Kannan, S Gokul Krishna, Pawan Kumar Gupta & Uday Kumar Kolkundkar",
+        "year": 2024,
         "impactFactor": NaN,
-        "impactFactor2019": 6.262,
-        "referenceLink": "https://www.eurekaselect.com/195480/article"
+        "impactFactor2019": NaN,
+        "referenceLink": "https://www.nature.com/articles/s41598-024-62544-8"
     },
     {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Development of a surrogate potency assay to determine the angiogenic activity of Stempeucel\u00ae, a pooled, ex-vivo expanded, allogeneic human bone marrow mesenchymal stromal cell product.",
-        "author": "Stem Cell Research & Therapy - Charan Thej, Balamurugan Ramadasse, Ankita Walvekar, Anish S Majumdar, Sudha Balasubramanian",
-        "year": 2017,
-        "impactFactor": 5.278,
+        "title": "Stempeucel\u00ae Osteoarthritis",
+        "content": "Efficacy and Safety of Stempeucel in Osteoarthritis of the Knee: A Phase 3 Randomized, Double-Blind, Multicenter, Placebo-Controlled Study. The American Journal of Sports Medicine, 2023. DOI: 10.1177/03635465231180323.",
+        "author": "Pawan Kumar Gupta, Sunil Maheshwari, Joe Joseph Cherian, Vijay Goni, Arun Kumar Sharma, Sujith Kumar Tripathy, Keerthi Talari, Vivek Pandey, Parag Kantilal Sancheti, Saurabh Singh Nikhil N. Verma and Uday Kumar.",
+        "year": 2023,
+        "impactFactor": NaN,
+        "impactFactor2019": NaN,
+        "referenceLink": "https://figshare.com/collections/Efficacy_and_Safety_of_Stempeucel_in_Osteoarthritis_of_the_Knee_A_Phase_3_Randomized_Double-Blind_Multicenter_Placebo-Controlled_Study/6716457"
+    },
+    {
+        "title": "Stempeucel\u00ae Osteoarthritis",
+        "content": "The promising role of autologous and allogeneic mesenchymal stromal cells in managing knee osteoarthritis. What is beyond Mesenchymal stromal cells?.",
+        "author": "Journal of Clinical Orthopaedics and Trauma\n\nVivek P, Sandesh M, Gupta PK",
+        "year": 2022,
+        "impactFactor": NaN,
+        "impactFactor2019": NaN,
+        "referenceLink": "https://www.sciencedirect.com/science/article/abs/pii/S0976566222000406"
+    },
+    {
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Human bone marrow-derived, pooled, allogeneic mesenchymal stromal cells manufactured from multiple donors at different time intervals show comparable biological functions, both in vitro and in vivo to repair limb ischemia.",
+        "author": "Stem Cell Research & Therapy\n\nCharan Thej*, Sudha Balasubramanian*, Mathiyazhagan Rengasamy, Ankita Walvekar, Priyanka Swamynathan, Swathi Sundar Raj, Pradnya Sahani, Siddikuzzaman, Udaykumar Kolkundkar, Raviraja N Seetharam, Pawan Kumar Gupta, Anish Sen Majumdar.",
+        "year": 2021,
+        "impactFactor": NaN,
         "impactFactor2019": 5.081,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/28245882/"
+        "referenceLink": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-021-02330-9"
+    },
+    {
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Expansion and Characterization of Bone Marrow Derived Human Mesenchymal Stromal Cells in Serum-Free Conditions",
+        "author": "Scientific Reports\n\nSamatha Bhat, Pachaiyappan Viswanathan, Raviraja N Seetharam.",
+        "year": 2020,
+        "impactFactor": NaN,
+        "impactFactor2019": 4.149,
+        "referenceLink": "https://www.nature.com/articles/s41598-021-83088-1"
+    },
+    {
+        "title": "Stempeucel\u00ae Osteoarthritis",
+        "content": "Mesenchymal stromal cells for the treatment of osteoarthritis of knee joint: context and perspective.",
+        "author": "Ann Transl Med\n\nGupta PK, Thej C",
+        "year": 2019,
+        "impactFactor": null,
+        "impactFactor2019": null,
+        "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789345/"
     },
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
         "content": "Administration of Adult Human Bone Marrow Derived, Cultured, Pooled, Allogeneic Mesenchymal Stromal Cells in Critical Limb Ischemia Due to Buerger\u2019s Disease: Phase II Study Report Suggests Clinical Efficacy",
-        "author": "Stem Cells Translational Medicine - Gupta PK, Dutta S, Krishna M, Sarkar U, Jeyaseelan L, Seetharam NS, Balasubramanian S, Chullikana A, Raju R, Viswanathan P, Thej C, Desai S, Dhar A, Murugesan R, Parakh R, Prasanth KV, Mathiyazhagan R, MajumdarAS",
+        "author": "Stem Cells Translational Medicine\n\n\nGupta PK, Dutta S, Krishna M, Sarkar U, Jeyaseelan L, Seetharam NS, Balasubramanian S, Chullikana A, Raju R, Viswanathan P, Thej C, Desai S, Dhar A, Murugesan R, Parakh R, Prasanth KV, Mathiyazhagan R, MajumdarAS",
         "year": 2016,
         "impactFactor": 4.672,
         "impactFactor2019": 6.262,
         "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/28297569/"
     },
     {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Double Blind Randomized Placebo Controlled Phase I/II study assessing the safety and efficacy of Allogeneic Bone Marrow Derived Mesenchymal Stem Cell in Critical Limb Ischemia.",
-        "author": "J Transl Med - Pawan K Gupta 1, Anoop Chullikana, Rajiv Parakh, Sanjay Desai, Anjan Das, Sanjay Gottipamula, Sagar Krishnamurthy, Naveen Anthony, Arun Pherwani, Anish S Majumdar",
-        "year": 2013,
-        "impactFactor": 4.849,
-        "impactFactor2019": 4.206,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/23758736/"
+        "title": "Stempeucel\u00ae Osteoarthritis",
+        "content": "Efficacy and safety of adult human bone marrow-derived, cultured, pooled, allogeneic mesenchymal stromal cells (Stempeucel\u00ae): preclinical and clinical trial in osteoarthritis of the knee joint.",
+        "author": "Arthritis Research & Therapy\n\nGupta PK, Chullikana A, Mathiyazhagan R, Shetty N, Pandey V, Agarwal V, Wagh SY, Prasanth KV, Damodaran D, Vishwanathan P, Thej C, Balasubramanian S, Majumdar AS.",
+        "year": 2016,
+        "impactFactor": 4.61,
+        "impactFactor2019": 4.247,
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/27993154/"
     },
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Intra arterial Allogeneic mesenchymal stem cells for critical limb ischemia are safe and efficacious: Report of a Phase I study.",
-        "author": "J Transl Med. - Das AK, Basri A, Dhillon SS, Vijanari A, Anoop CH, Gupta PK:",
-        "year": 2013,
-        "impactFactor": 2.834,
-        "impactFactor2019": 2.258,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/23307180/"
+        "content": "Administration of Adult Human Bone Marrow Derived, Cultured, Pooled, Allogeneic Mesenchymal Stromal Cells in Critical Limb Ischemia Due to Buerger\u2019s Disease: Phase II Study Report Suggests Clinical Efficacy",
+        "author": "Stem Cells Translational Medicine\n\n\nGupta PK, Dutta S, Krishna M, Sarkar U, Jeyaseelan L, Seetharam NS, Balasubramanian S, Chullikana A, Raju R, Viswanathan P, Thej C, Desai S, Dhar A, Murugesan R, Parakh R, Prasanth KV, Mathiyazhagan R, MajumdarAS",
+        "year": 2016,
+        "impactFactor": 4.672,
+        "impactFactor2019": 6.262,
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/28297569/"
     },
     {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Cell therapy in critical limb ischemia: current developments and future progress.",
-        "author": "Cytotherapy - Mamidi MK, Pal R, Dey S, Basri Johan Jeet Bin Abdullah, Zakaria Z, Rao MS & Das AK",
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Effect of bFGF on HLA-DR expression of human Bone Marrow derived Mesenchymal Stem Cells.",
+        "author": "Cell Biol Int.\n\nDighe PA, Viswanathan P, Mruthunjaya AK, Seetharam RN.",
+        "year": 2013,
+        "impactFactor": 8.239,
+        "impactFactor2019": 5.925,
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/24459812/"
+    },
+    {
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Comparative cellular and molecular analyses of pooled bone marrow multipotent mesenchymal stromal cells during continues passaging and after successive cryopreservation.",
+        "author": "J Cell Biochem. \n\nMamidi MK, Nathan KG, Singh G, Thrichelvam ST, My NA, Fakharuzi NA, Zakaria Z, Bhonde R, Das AK, Majumdar AS.",
         "year": 2012,
-        "impactFactor": 3.596,
-        "impactFactor2019": 3.904,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22731756/"
+        "impactFactor": 3.534,
+        "impactFactor2019": 3.918,
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22615164/"
     },
     {
-        "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Stem cell therapy for critical limb ischemia \u2013 a review",
-        "author": "Indian J Surg. - Das A.K.",
+        "title": "Stempeucel\u00ae Osteoarthritis",
+        "content": "Mesenchymal Stem Cells for Cartilage Repair in Osteoarthritis",
+        "author": "Stem Cell Research & Therapy\n\nGupta PK, Das AK, Chullikana A, Majumdar AS",
+        "year": 2012,
+        "impactFactor": 3.517,
+        "impactFactor2019": 5.081,
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22776206/"
+    },
+    {
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Pro-Inflammatory Cytokines, IFN\u03b3 and TNF\u03b1, Influence Immune Properties of Human Bone Marrow and Wharton Jelly Mesenchymal Stem Cells Differentially.",
+        "author": "PLoS One. \n\nPrasanna SJ, Gopalakrishnan D, Shankar SR, Vasandan AB.",
+        "year": 2010,
+        "impactFactor": 4.866,
+        "impactFactor2019": 2.942,
+        "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2814860/"
+    },
+    {
+        "title": "Stempeucel\u00ae General Characteristics and Reviews",
+        "content": "Phenotypic and functional comparison of optimum culture conditions for upscaling of bone marrow-derived mesenchymal stem cells.",
+        "author": "J Tissue Eng Regen Med.\n\nPal R, Hanwate M, Jan M, Totey S.",
         "year": 2009,
-        "impactFactor": 0.169,
-        "impactFactor2019": 0.477,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/23133150/"
+        "impactFactor": 4.784,
+        "impactFactor2019": 3.241,
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/19229888/"
     },
 ]
 
-// old data
+// old all data
 // export const data = [
 //     {
 //         "title": "Stempeucel\u00ae Safety and Toxicity",

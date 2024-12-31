@@ -2378,6 +2378,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .homepage_news-section .card4__container {
     justify-content: space-between;
   }
+
+  .OA_page_summary-container {
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 990px) {

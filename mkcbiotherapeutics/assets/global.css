@@ -2563,10 +2563,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     width: 85%;
   }
 
-  #panel-1-4 .tabcontent .tab-text .tabtexts {
-    width: 83%;
-  }
-
   #panel-1-3 .tab-maintext {
     flex-direction: row;
     gap: 25px;
@@ -2738,6 +2734,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .leadership-new_cards .name {
     width: 25%;
+  }
+
+  #panel-1-4 .tabcontent .tab-text .tabtexts {
+    margin-top: 0;
+  }
+
+  #tab-section-1 #panel-1-4 .tabcontent {
+    align-items: start;
   }
 }
 

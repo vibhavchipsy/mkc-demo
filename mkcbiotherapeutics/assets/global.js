@@ -106,10 +106,39 @@ function attachHamburgerMenuListeners() {
   });
 }
 
+// Function to activate the correct tab based on the hash
+function switchTabPanel() {
+  const hash = window.location.hash; // Get the hash from the URL (e.g., #tab-section-4)
+  if (!hash) return; // Exit if there's no hash in the URL
+
+  const targetPanel = document.querySelector(hash); // Find the element with the ID from the hash
+  if (!targetPanel) return; // Exit if the element doesn't exist
+
+  // Get the parent tab container
+  const tabContainer = targetPanel.closest('.our_science_page-tabsection');
+  if (!tabContainer) return; // Exit if no tab container is found
+
+  const tabButtons = tabContainer.querySelectorAll('.tab-button');
+  const tabPanels = tabContainer.querySelectorAll('.tab-panel');
+
+  // Remove active classes from all buttons and panels
+  tabButtons.forEach((btn) => btn.classList.remove('active'));
+  tabPanels.forEach((panel) => panel.classList.remove('active'));
+
+  // Activate the corresponding button and panel
+  const targetButton = tabContainer.querySelector(`[data-tab="${hash.replace('#', '')}"]`);
+  if (targetButton) targetButton.classList.add('active');
+  targetPanel.classList.add('active');
+}
+
 // Call the function
 loadHeader();
 loadFooter();
 
 document.addEventListener("DOMContentLoaded", () => {
-  handleAnchorNavigation();
+  // handleAnchorNavigation();
+  switchTabPanel();
 });
+
+// Run the function when the hash changes
+window.addEventListener('hashchange', switchTabPanel);

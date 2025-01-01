@@ -1,12 +1,13 @@
 export const data = [
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
-        "content": "Advantages of pooling of human bone marrow-derived mesenchymal stromal cells from different donors versus single-donor MSCs. Scientific Reports. 14, Article number: 12654 (2024). doi.org/10.1038/s41598-024-62544-8",
-        "author": "Suresh Kannan, S Gokul Krishna, Pawan Kumar Gupta & Uday Kumar Kolkundkar",
+        "content": "1. Advantages of pooling of human bone marrow-derived mesenchymal stromal cells from different donors versus single-donor MSCs.",
+        "author": "Kannan S., Et Al.",
         "year": 2024,
         "impactFactor": NaN,
         "impactFactor2019": NaN,
-        "referenceLink": "https://www.nature.com/articles/s41598-024-62544-8"
+        "referenceLink": "https://www.nature.com/articles/s41598-024-62544-8",
+        "journal": "Scientific Reports. 14, Article number: 12654 (2024)."
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",
@@ -28,12 +29,13 @@ export const data = [
     },
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
-        "author": "Stem Cells Translational Medicine\n\nGupta Pawan, Dutta Santanu, Kala Sanjay, Krishna Murali, Desai Sanjay, Mahapatra Subhendu, Dhar Anita, Radhakrishnan R, Rajkumar M, Behera Arunanshu, P Shivashankar, Seetharam R, Viswanathan Pachaiyappan, Chandrashekar Mithun, Thej Charan, Prasanth K, Abraham Jijy, Boggarapu Hema, Kolkundkar Udaykumar.",
+        "content": "4. Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
+        "author": "Pawan G., Et Al.",
         "year": 2021,
         "impactFactor": NaN,
         "impactFactor2019": 6.262,
-        "referenceLink": "https://www.eurekaselect.com/195480/article"
+        "referenceLink": "https://www.eurekaselect.com/195480/article",
+        "journal": "Stem Cells Translational Medicine (2021)"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",

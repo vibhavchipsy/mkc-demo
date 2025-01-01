@@ -1867,6 +1867,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding: 0px 20px;
 }
 
+.accordion_title {
+  margin-top: 2px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,

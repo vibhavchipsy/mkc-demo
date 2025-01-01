@@ -2155,6 +2155,16 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .mobile_tablet_hide {
     display: none;
   }
+
+  .absolute-container.container__maxwidth.container__center {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners_investors-page {
+    padding-top: 25px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -2742,6 +2752,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   #tab-section-1 #panel-1-4 .tabcontent {
     align-items: start;
+  }
+
+  .partners_investors-page.homepage_partners_and_investors-graph {
+    padding-bottom: 40px;
   }
 }
 

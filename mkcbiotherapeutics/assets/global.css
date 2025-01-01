@@ -1127,13 +1127,15 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: -26px;
 }
 
 #panel-1-4 .tabcontent .tab-text .tabtexts {
   margin-top: 0px;
 }
 
+#tab-section-1 #panel-1-1 .tabcontent,
+#tab-section-1 #panel-1-2 .tabcontent .tabcontent-section1,
+#tab-section-1 #panel-1-3 .tabcontent .tabcontent-section1,
 #tab-section-1 #panel-1-4 .tabcontent {
   gap: 20px;
 }
@@ -1981,6 +1983,13 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .banner__texts {
     gap: 0;
   }
+
+  #panel-1-1 .tab-image img,
+  #panel-1-2 .tab-image img,
+  #panel-1-3 .tab-image img,
+  #panel-1-4 .tab-image img {
+    width: 100%;
+  }
 }
 
 .green-element {
@@ -2161,13 +2170,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   #tab-section-1 .tab-button svg {
     display: none;
-  }
-
-  #panel-1-1 .tab-image img,
-  #panel-1-2 .tab-image img,
-  #panel-1-3 .tab-image img,
-  #panel-1-4 .tab-image img {
-    width: 100%;
   }
 
   #panel-1-2 .tabcontent .tab_section2_img-container .tab_section2-img2 img,

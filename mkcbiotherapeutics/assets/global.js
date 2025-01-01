@@ -111,7 +111,6 @@ function switchTabPanel() {
   const hash = window.location.hash; // Get the hash from the URL (e.g., #tab-section-4)
   if (!hash) return; // Exit if there's no hash in the URL
 
-  document.querySelector("#close_menu").click();
   const targetPanel = document.querySelector(hash); // Find the element with the ID from the hash
   if (!targetPanel) return; // Exit if the element doesn't exist
 

@@ -29,13 +29,13 @@ export const data = [
     },
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
-        "content": "4. Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease",
+        "content": "4. Phase IV PMS Study shows Continued Efficacy and Safety of stempeucel\u00ae in Patients with Critical Limb Ischemia due to Buerger\u2019s Disease.",
         "author": "Pawan G., Et Al.",
         "year": 2021,
         "impactFactor": NaN,
         "impactFactor2019": 6.262,
         "referenceLink": "https://www.eurekaselect.com/195480/article",
-        "journal": "Stem Cells Translational Medicine (2021)"
+        "journal": "Stem Cells Translational Medicine (2021)."
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",

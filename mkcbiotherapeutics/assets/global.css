@@ -1,5 +1,5 @@
 html {
-  scroll-padding-top: 120px;
+  scroll-padding-top: 95px;
   /* Adjust this to your sticky header's height */
   scroll-behavior: smooth;
   /* Smooth scrolling effect */

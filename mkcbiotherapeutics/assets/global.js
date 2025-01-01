@@ -11,6 +11,9 @@ function loadHeader() {
     })
     .then((data) => {
       document.getElementById("header").innerHTML = data; // Inject header content
+
+      // Attach event listeners after the header is loaded
+      attachHamburgerMenuListeners();
     })
     .catch((error) => console.error("Error loading header:", error));
 }
@@ -64,6 +67,43 @@ function handleAnchorNavigation() {
 
   // Add event listener for dynamic hash change
   window.addEventListener("hashchange", navigateToSection);
+}
+
+// Function to attach event listeners
+function attachHamburgerMenuListeners() {
+  // Select all anchors inside .submenu-parent
+  const submenuAnchors = document.querySelectorAll(".submenu-parent > a");
+
+  submenuAnchors.forEach((anchor) => {
+    anchor.addEventListener("click", (e) => {
+      if (window.innerWidth <= 768) {
+        const parent = anchor.parentElement;
+        const hasHref = anchor.hasAttribute("href") && anchor.getAttribute("href").trim() !== "";
+
+        if (!hasHref) {
+          // Prevent default behavior for anchors without href
+          e.preventDefault();
+        }
+
+        // Close all other submenus
+        document.querySelectorAll(".submenu-parent").forEach((other) => {
+          if (other !== parent) {
+            other.classList.remove("active");
+          }
+        });
+
+        // Toggle the submenu
+        parent.classList.toggle("active");
+
+        // Optional: Close other open submenus (accordion effect)
+        document.querySelectorAll(".submenu-parent").forEach((other) => {
+          if (other !== parent) {
+            other.classList.remove("active");
+          }
+        });
+      }
+    });
+  });
 }
 
 // Call the function

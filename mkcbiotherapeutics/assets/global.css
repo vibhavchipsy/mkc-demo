@@ -1883,6 +1883,14 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding: 13px 0px 12px 0px;
 }
 
+.home .about__mkc--subcontainer {
+  z-index: 1;
+}
+
+.about__mkc--container {
+  overflow: hidden;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -1960,6 +1968,18 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .news_container {
     align-items: center;
+  }
+
+  .home .about__mkc--heading h3 {
+    margin-bottom: 0px;
+  }
+
+  .home .about__mkc--subcontainer {
+    margin-bottom: 15px;
+  }
+
+  .banner__texts {
+    gap: 0;
   }
 }
 
@@ -2179,6 +2199,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .partners_investors-page {
     padding-top: 25px;
+  }
+
+  .home .about__mkc--image {
+    margin-right: -20px;
+    margin-left: -20px;
   }
 }
 
@@ -2829,6 +2854,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .home .about__mkc--texts .about__mkc--para p {
     margin: 0;
+  }
+
+  .home .about__mkc--subcontainer {
+    margin: 10px 0px 0px 0px;
   }
 }
 

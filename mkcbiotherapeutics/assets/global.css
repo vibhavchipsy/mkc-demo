@@ -813,10 +813,10 @@ h3 {
 .cards7__container {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 5px;
   position: relative;
-  padding-top: 20px;
-  padding-right: 20px;
+  padding-top: 15px;
+  padding-right: 11px;
 }
 
 .aboutpage_section2-textimg .about__mkc--heading h3 {
@@ -826,6 +826,7 @@ h3 {
 .aboutpage_section2 .card7__container {
   background-color: white;
   padding: 6px 7px;
+  border-radius: 4px;
 }
 
 .gradient_absimage {

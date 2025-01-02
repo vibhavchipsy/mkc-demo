@@ -7,7 +7,8 @@ export const data = [
         "impactFactor": NaN,
         "impactFactor2019": NaN,
         "referenceLink": "https://www.nature.com/articles/s41598-024-62544-8",
-        "journal": "Scientific Reports. 14, Article number: 12654 (2024)."
+        "journal": "Scientific Reports. 14, Article number: 12654 (2024).",
+        "reference": "98"
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",
@@ -16,7 +17,8 @@ export const data = [
         "year": 2023,
         "impactFactor": NaN,
         "impactFactor2019": NaN,
-        "referenceLink": "https://figshare.com/collections/Efficacy_and_Safety_of_Stempeucel_in_Osteoarthritis_of_the_Knee_A_Phase_3_Randomized_Double-Blind_Multicenter_Placebo-Controlled_Study/6716457"
+        "referenceLink": "https://figshare.com/collections/Efficacy_and_Safety_of_Stempeucel_in_Osteoarthritis_of_the_Knee_A_Phase_3_Randomized_Double-Blind_Multicenter_Placebo-Controlled_Study/6716457",
+        "reference": "93"
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",
@@ -25,7 +27,8 @@ export const data = [
         "year": 2022,
         "impactFactor": NaN,
         "impactFactor2019": NaN,
-        "referenceLink": "https://www.sciencedirect.com/science/article/abs/pii/S0976566222000406"
+        "referenceLink": "https://www.sciencedirect.com/science/article/abs/pii/S0976566222000406",
+        "reference": "88"
     },
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
@@ -35,7 +38,8 @@ export const data = [
         "impactFactor": NaN,
         "impactFactor2019": 6.262,
         "referenceLink": "https://www.eurekaselect.com/195480/article",
-        "journal": "Stem Cells Translational Medicine (2021)."
+        "journal": "Stem Cells Translational Medicine (2021).",
+        "reference": "85"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
@@ -44,7 +48,8 @@ export const data = [
         "year": 2021,
         "impactFactor": NaN,
         "impactFactor2019": 5.081,
-        "referenceLink": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-021-02330-9"
+        "referenceLink": "https://stemcellres.biomedcentral.com/articles/10.1186/s13287-021-02330-9",
+        "reference": "81"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
@@ -53,7 +58,8 @@ export const data = [
         "year": 2020,
         "impactFactor": NaN,
         "impactFactor2019": 4.149,
-        "referenceLink": "https://www.nature.com/articles/s41598-021-83088-1"
+        "referenceLink": "https://www.nature.com/articles/s41598-021-83088-1",
+        "reference": "77"
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",
@@ -62,7 +68,8 @@ export const data = [
         "year": 2019,
         "impactFactor": null,
         "impactFactor2019": null,
-        "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789345/"
+        "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6789345/",
+        "reference": "73"
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",
@@ -71,7 +78,8 @@ export const data = [
         "year": 2016,
         "impactFactor": 4.61,
         "impactFactor2019": 4.247,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/27993154/"
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/27993154/",
+        "reference": "63"
     },
     {
         "title": "Stempeucel\u00ae Critical Limb Ischemia",
@@ -80,7 +88,8 @@ export const data = [
         "year": 2016,
         "impactFactor": 4.672,
         "impactFactor2019": 6.262,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/28297569/"
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/28297569/",
+        "reference": "62"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
@@ -89,7 +98,8 @@ export const data = [
         "year": 2013,
         "impactFactor": 8.239,
         "impactFactor2019": 5.925,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/24459812/"
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/24459812/",
+        "reference": "50"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
@@ -98,7 +108,8 @@ export const data = [
         "year": 2012,
         "impactFactor": 3.534,
         "impactFactor2019": 3.918,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22615164/"
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22615164/",
+        "reference": "38"
     },
     {
         "title": "Stempeucel\u00ae Osteoarthritis",
@@ -107,7 +118,8 @@ export const data = [
         "year": 2012,
         "impactFactor": 3.517,
         "impactFactor2019": 5.081,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22776206/"
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/22776206/",
+        "reference": "37"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
@@ -116,7 +128,8 @@ export const data = [
         "year": 2010,
         "impactFactor": 4.866,
         "impactFactor2019": 2.942,
-        "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2814860/"
+        "referenceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2814860/",
+        "reference": "15"
     },
     {
         "title": "Stempeucel\u00ae General Characteristics and Reviews",
@@ -125,7 +138,8 @@ export const data = [
         "year": 2009,
         "impactFactor": 4.784,
         "impactFactor2019": 3.241,
-        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/19229888/"
+        "referenceLink": "https://pubmed.ncbi.nlm.nih.gov/19229888/",
+        "reference": "9"
     },
 ]
 

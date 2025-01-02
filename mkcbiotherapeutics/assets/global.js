@@ -129,6 +129,9 @@ function switchTabPanel() {
   const targetButton = tabContainer.querySelector(`[data-tab="${hash.replace('#', '')}"]`);
   if (targetButton) targetButton.classList.add('active');
   targetPanel.classList.add('active');
+
+  // Scroll to the panel
+  targetPanel.scrollIntoView({ behavior: 'smooth' });
 }
 
 // Call the function

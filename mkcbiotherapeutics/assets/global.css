@@ -2112,7 +2112,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .aboutpage_section1 .about__mkc--texts {
-    width: 44%;
+    width: 52%;
   }
 
   .aboutpage-cards {
@@ -2133,10 +2133,6 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .aboutpage_section2-textimg {
     width: 45%;
-  }
-
-  .about__mkc--image {
-    width: 55%;
   }
 
   .contactus_page-form .contact_form-container1 {
@@ -2856,6 +2852,15 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     justify-content: center;
     display: flex;
     flex-direction: column;
+  }
+
+  .aboutpage_section1 img {
+    width: unset;
+  }
+
+  .aboutpage_section1 .about__mkc--image {
+    margin-top: 30px;
+    margin-bottom: -25px;
   }
 }
 

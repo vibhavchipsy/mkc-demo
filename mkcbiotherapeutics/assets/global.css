@@ -1893,6 +1893,18 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   overflow: hidden;
 }
 
+.investors-page .card5__para p {
+  margin: 0;
+}
+
+.partners-page.homepage-partners_and_investors-new .absolute-container .card5__para1 {
+  padding-top: 0px;
+}
+
+.partners-page.homepage-partners_and_investors-new .absolute-container .card5__para1 .partners-logos img {
+  padding-top: 0px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2797,7 +2809,21 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .partners_investors-page.homepage_partners_and_investors-graph {
+    padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .partners-page.partners_investors-page.homepage_partners_and_investors-graph,
+  .investors-page.partners_investors-page.homepage_partners_and_investors-graph {
+    padding-bottom: 0px;
+  }
+
+  .investors-page .partners_investors-imgcontainer img {
+    max-height: 330px;
+  }
+
+  .partners-page .partners_investors-imgcontainer img {
+    max-height: 240px;
   }
 
   .aboutpage_section2-img img {

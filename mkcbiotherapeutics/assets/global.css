@@ -450,14 +450,14 @@ h3 {
 }
 
 .page_banner-title {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .page_banner-absolute {
   position: absolute;
-  top: 5%;
-  right: 5px;
+  top: 12%;
+  right: -5px;
 }
 
 .card3__container {
@@ -807,6 +807,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 15px;
+  min-width: 99px;
 }
 
 .cards7__container {
@@ -1905,6 +1906,11 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   padding-top: 0px;
 }
 
+.aboutpage_section2 .about__mkc--image .core_values {
+  margin-top: 14px;
+  margin-bottom: 5px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,
@@ -2043,7 +2049,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
       rgba(255, 255, 255, 0) 96.3%);
   border: 1px solid #ffffff80;
   color: #4dab92;
-  padding: 15px 26px;
+  padding: 10px 26px;
   border-radius: 6px;
 }
 
@@ -2219,6 +2225,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     margin-right: -20px;
     margin-left: -20px;
   }
+
+  .page_banner-absolute {
+    right: 10px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -2372,10 +2382,13 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .aboutpage_section2 .card7__subcontainer.card7__subcontainer1 {
     font-size: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .aboutpage_section2 {
-    padding-top: 50px;
+    padding-top: 26px;
   }
 
   #tab-section-1 .tabcontent,
@@ -2784,12 +2797,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .aboutpage_section2 .about__mkc--para p {
     margin: 0;
-    padding-top: 10px;
-    line-height: 25px;
+    padding-top: 3px;
+    line-height: 20px;
   }
 
   .aboutpage_section2 .about__mkc--texts {
-    padding-top: 30px;
+    padding-top: 15px;
   }
 
   .homepage-partners_and_investors-new .about__mkc--heading h3 {
@@ -2836,6 +2849,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .home .about__mkc--texts .about__mkc--heading h3 {
     margin: 0;
+  }
+
+  .card7__subcontainer.card7__subcontainer2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 

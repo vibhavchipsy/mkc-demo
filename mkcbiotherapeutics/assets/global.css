@@ -2027,6 +2027,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 .aboutpage_section2 .about__mkc--image {
   padding-left: 20px;
   border-left: 1px dashed #98e8ff;
+  width: 55%;
 }
 
 .aboutpage_section2 .core_values {

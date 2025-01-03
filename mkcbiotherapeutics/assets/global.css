@@ -1928,6 +1928,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   min-width: 22px;
 }
 
+.aboutpage_section1 .about__mkc--heading h3 {
+  margin-bottom: 18px;
+}
+
 @media (min-width: 768px) and (max-width: 990px) {
 
   .section4__container .about__mkc--texts,

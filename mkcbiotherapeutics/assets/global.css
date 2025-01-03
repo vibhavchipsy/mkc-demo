@@ -25,6 +25,7 @@ body {
   --color8: #60ba8e;
   --color9: #3198b6;
   --color10: #5bb78d;
+  --color11: #0b718b;
 }
 
 .color1-color {
@@ -2966,5 +2967,43 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 @media (max-width: 1270px) {
   .hide_small_desktops {
     display: none;
+  }
+}
+
+/* loader css */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  /* Optional: dim background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  /* Ensure it's above all other elements */
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid white;
+  border-bottom-color: var(--color11);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }

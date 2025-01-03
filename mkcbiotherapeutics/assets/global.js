@@ -134,11 +134,26 @@ function switchTabPanel() {
   targetPanel.scrollIntoView({ behavior: 'smooth' });
 }
 
+function removeLoader() {
+  const loaderContainer = document.querySelector(".loader-container");
+
+  // Ensure loader is removed after the page loads
+  window.onload = () => {
+    loaderContainer.style.opacity = "0";
+    setTimeout(() => {
+      loaderContainer.style.display = "none";
+    }, 500); // Allow time for the fade-out effect
+  };
+}
+
 // Call the function
 loadHeader();
 loadFooter();
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Initialize loader removal
+  removeLoader();
+
   // handleAnchorNavigation();
   switchTabPanel();
 });

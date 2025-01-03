@@ -1,216 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <link rel="stylesheet" href="/mkcbiotherapeutics/assets/global.css" />
-    <link rel="stylesheet" href="/mkcbiotherapeutics/assets/css/header.css" />
-    <link rel="stylesheet" href="/mkcbiotherapeutics/assets/css/contact.css" />
-    <link rel="stylesheet" href="/mkcbiotherapeutics/assets/css/footer.css" />
-    <script src="/mkcbiotherapeutics/assets/global.js"></script>
-  </head>
 
-  <body>
-    <div id="header"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="/mkcbiotherapeutics/assets/global.css" />
+  <link rel="stylesheet" href="/mkcbiotherapeutics/assets/css/header.css" />
+  <link rel="stylesheet" href="/mkcbiotherapeutics/assets/css/contact.css" />
+  <link rel="stylesheet" href="/mkcbiotherapeutics/assets/css/footer.css" />
+  <script src="/mkcbiotherapeutics/assets/global.js"></script>
+</head>
 
-    <div class="page_banner">
-      <div
-        class="page_banner-container container__sidemargin container__maxwidth container__center"
-      >
-        <div class="page_banner-title">
-          <h1>Contact Us</h1>
+<body>
+  <div class="loader-container">
+    <span class="loader"></span>
+  </div>
+  <div id="header"></div>
+
+  <div class="page_banner">
+    <div class="page_banner-container container__sidemargin container__maxwidth container__center">
+      <div class="page_banner-title">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="page_banner-absolute">
+        <img src="/mkcbiotherapeutics/assets/images/commonbanner/banner_abs_image.png" />
+      </div>
+    </div>
+  </div>
+
+  <div class="contactus_page-form container__sidemargin container__maxwidth container__center">
+    <div class="contact_form-container1">
+      <div class="about__mkc--texts">
+        <div class="about__mkc--heading">
+          <h3>
+            <span class="secondary-color">Get in Touch with </span><span class="primary-color">MKC
+              Biotherapeutics</span>
+          </h3>
         </div>
-        <div class="page_banner-absolute">
-          <img
-            src="/mkcbiotherapeutics/assets/images/commonbanner/banner_abs_image.png"
-          />
+        <div class="about__mkc--para">
+          <p>
+            We're here to answer your questions and provide more information
+            about our regenerative medicine solutions. Whether you're a
+            patient, clinician, partner, or investor, we'd love to hear from
+            you.
+          </p>
+        </div>
+        <div class="contactform">
+          <form id="contactus_formID" class="contactus_form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" placeholder="Subject" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+              </div>
+            </div>
+            <div class="form-row submit__field">
+              <button id="formSubmitBtn" type="submit" class="primary-btn cursor_pointer">
+                Send Message
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
-
-    <div
-      class="contactus_page-form container__sidemargin container__maxwidth container__center"
-    >
-      <div class="contact_form-container1">
-        <div class="about__mkc--texts">
-          <div class="about__mkc--heading">
-            <h3>
-              <span class="secondary-color">Get in Touch with </span
-              ><span class="primary-color">MKC Biotherapeutics</span>
-            </h3>
+    <div class="contact_form-container2 display_none">
+      <div class="form-subcontainer1">
+        <div class="contact_form-heading font-24 font-weight-600">
+          Have More Question ?
+        </div>
+        <div class="contact_form-text">
+          We're here to help! Don't hesitate to reach out to us for more
+          information or assistance.
+        </div>
+      </div>
+      <div class="form-subcontainer2">
+        <div class="form-box">
+          <div class="form-iconbox">
+            <div class="formicon">
+              <img src="/mkcbiotherapeutics/assets/icons/phone.svg" />
+            </div>
+            <div class="formtext">
+              <div class="form-text1">Phone</div>
+              <div class="form-text2">6586568695</div>
+            </div>
           </div>
-          <div class="about__mkc--para">
-            <p>
-              We're here to answer your questions and provide more information
-              about our regenerative medicine solutions. Whether you're a
-              patient, clinician, partner, or investor, we'd love to hear from
-              you.
-            </p>
+          <div class="form-iconbox">
+            <div class="formicon">
+              <img src="/mkcbiotherapeutics/assets/icons/email_white.svg" />
+            </div>
+            <div class="formtext">
+              <div class="form-text1">Email</div>
+              <div class="form-text2">info@mkcbiotherapeutics.com</div>
+            </div>
           </div>
-          <div class="contactform">
-            <form id="contactus_formID" class="contactus_form">
-              <div class="form-row">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Your Phone"
-                    required
-                  />
-                </div>
+          <div class="form-iconbox">
+            <div class="formicon">
+              <img src="/mkcbiotherapeutics/assets/icons/location_white.svg" />
+            </div>
+            <div class="formtext">
+              <div class="form-text1">Address</div>
+              <div class="form-text2">
+                4517 Washington Ave. Manchester, Kentucky 39495
               </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <textarea
-                    id="message"
-                    name="message"
-                    placeholder="Your Message"
-                    rows="4"
-                    required
-                  ></textarea>
-                </div>
-              </div>
-              <div class="form-row submit__field">
-                <button
-                  id="formSubmitBtn"
-                  type="submit"
-                  class="primary-btn cursor_pointer"
-                >
-                  Send Message
-                </button>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
-      <div class="contact_form-container2 display_none">
-        <div class="form-subcontainer1">
-          <div class="contact_form-heading font-24 font-weight-600">
-            Have More Question ?
+      <div class="divider"></div>
+      <div class="form-subcontainer3">
+        <div class="font-weight-600">We are in Social Media</div>
+        <div class="social_icons">
+          <div>
+            <img src="/mkcbiotherapeutics/assets/icons/gradient linkedin.svg" />
           </div>
-          <div class="contact_form-text">
-            We're here to help! Don't hesitate to reach out to us for more
-            information or assistance.
-          </div>
-        </div>
-        <div class="form-subcontainer2">
-          <div class="form-box">
-            <div class="form-iconbox">
-              <div class="formicon">
-                <img src="/mkcbiotherapeutics/assets/icons/phone.svg" />
-              </div>
-              <div class="formtext">
-                <div class="form-text1">Phone</div>
-                <div class="form-text2">6586568695</div>
-              </div>
-            </div>
-            <div class="form-iconbox">
-              <div class="formicon">
-                <img src="/mkcbiotherapeutics/assets/icons/email_white.svg" />
-              </div>
-              <div class="formtext">
-                <div class="form-text1">Email</div>
-                <div class="form-text2">info@mkcbiotherapeutics.com</div>
-              </div>
-            </div>
-            <div class="form-iconbox">
-              <div class="formicon">
-                <img
-                  src="/mkcbiotherapeutics/assets/icons/location_white.svg"
-                />
-              </div>
-              <div class="formtext">
-                <div class="form-text1">Address</div>
-                <div class="form-text2">
-                  4517 Washington Ave. Manchester, Kentucky 39495
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="divider"></div>
-        <div class="form-subcontainer3">
-          <div class="font-weight-600">We are in Social Media</div>
-          <div class="social_icons">
-            <div>
-              <img
-                src="/mkcbiotherapeutics/assets/icons/gradient linkedin.svg"
-              />
-            </div>
-            <div>
-              <img
-                src="/mkcbiotherapeutics/assets/icons/gradient twitter.svg"
-              />
-            </div>
+          <div>
+            <img src="/mkcbiotherapeutics/assets/icons/gradient twitter.svg" />
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="contactus_map display_none">
-      <div class="gradient_div"></div>
-      <div class="map_location-maincontainer">
-        <div
-          class="map_location-subcontainer container__sidemargin container__maxwidth container__center"
-        >
-          <div class="map_location-iframecontainer">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.253463043349!2d-95.40922982516264!3d29.770311675062814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0b2dbc150fb%3A0xbfcd05fe80d296f1!2s4517%20Washington%20Ave%2C%20Manchester%2C%20Kentucky%2039495%2C%20USA!5e0!3m2!1sen!2sin!4v1732779919834!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+  <div class="contactus_map display_none">
+    <div class="gradient_div"></div>
+    <div class="map_location-maincontainer">
+      <div class="map_location-subcontainer container__sidemargin container__maxwidth container__center">
+        <div class="map_location-iframecontainer">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.253463043349!2d-95.40922982516264!3d29.770311675062814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0b2dbc150fb%3A0xbfcd05fe80d296f1!2s4517%20Washington%20Ave%2C%20Manchester%2C%20Kentucky%2039495%2C%20USA!5e0!3m2!1sen!2sin!4v1732779919834!5m2!1sen!2sin"
+            width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="footer"></div>
+  <div id="footer"></div>
 
-    <script src="/mkcbiotherapeutics/assets/js/header.js" defer></script>
-    <script src=" /mkcbiotherapeutics/assets/js/favicon.js"></script>
-    <script src="/mkcbiotherapeutics/assets/js/contactUsPageForm.js"></script>
-  </body>
+  <script src="/mkcbiotherapeutics/assets/js/header.js" defer></script>
+  <script src=" /mkcbiotherapeutics/assets/js/favicon.js"></script>
+  <script src="/mkcbiotherapeutics/assets/js/contactUsPageForm.js"></script>
+</body>
+
 </html>

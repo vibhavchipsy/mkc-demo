@@ -2849,10 +2849,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .investors-page .partners_investors-imgcontainer img {
+    min-height: 330px;
     max-height: 330px;
   }
 
   .partners-page .partners_investors-imgcontainer img {
+    min-height: 240px;
     max-height: 240px;
   }
 

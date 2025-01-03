@@ -1289,6 +1289,10 @@ h3 {
   padding: 15px;
 }
 
+.OA_page .footer__bottom-container.bulletins.bulletins-separate {
+  padding-top: 0px;
+}
+
 .OA_page-basecase_usecase {
   display: flex;
   flex-direction: column;
@@ -1910,6 +1914,18 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 .aboutpage_section2 .about__mkc--image .core_values {
   margin-top: 14px;
   margin-bottom: 5px;
+}
+
+.publications-individual_container {
+  display: flex;
+}
+
+.publications-index_numbering-single_digit {
+  min-width: 20px;
+}
+
+.publications-index_numbering-two_digit {
+  min-width: 22px;
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -2677,8 +2693,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .OA_page-gradient_container {
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
   }
 
   .OA_page-treatment_graph-container {
@@ -2863,6 +2878,19 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
     margin-top: 30px;
     margin-bottom: -25px;
   }
+
+  .bulletins-separate-container {
+    display: flex;
+  }
+
+  .bulletins-separate-img img {
+    margin-top: -40px;
+    margin-right: -40px;
+  }
+
+  .OA_page.OA_page_summary-container {
+    margin-bottom: -45px;
+  }
 }
 
 @media (max-width: 660px) {
@@ -2916,6 +2944,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .home .about__mkc--texts .btn__readmore {
     padding-top: 20px;
+  }
+
+  .bulletins-separate-img img {
+    width: 100%;
   }
 }
 

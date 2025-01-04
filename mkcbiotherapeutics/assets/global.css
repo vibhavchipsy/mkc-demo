@@ -2483,7 +2483,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .our_science_page-tabsection {
-    padding-top: 45px;
+    padding-top: 0px;
   }
 
   .home.section4__container .btn__readmore {
@@ -2620,17 +2620,17 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .our_science_page-section1 {
     flex-direction: row;
-    gap: 50px;
+    gap: 10px;
     align-items: start;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .our_science_page-section1 .about__mkc--image {
-    width: 38%;
+    /* width: 38%; */
   }
 
   .our_science_page-section1 .about__mkc--texts {
-    width: 65%;
+    /* width: 65%; */
   }
 
   #tab-section-1 .tab-button.active svg g path {

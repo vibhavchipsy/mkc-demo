@@ -1405,7 +1405,7 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 }
 
 .OA_page_summary-container .bulletin-heading {
-  padding-top: 25px;
+  padding-top: 5px;
 }
 
 .OA_page-treatment_guidelines {
@@ -2895,12 +2895,12 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   }
 
   .bulletins-separate-img img {
-    margin-top: -55px;
+    margin-top: -40px;
     margin-right: -40px;
   }
 
   .OA_page.OA_page_summary-container {
-    margin-bottom: -45px;
+    margin-bottom: -30px;
   }
 }
 
@@ -2959,6 +2959,13 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
 
   .bulletins-separate-img img {
     width: 100%;
+  }
+
+  .bulletins-separate-img {
+    margin-right: -15px;
+    margin-left: -50px;
+    margin-top: -20px;
+    margin-bottom: -20px;
   }
 }
 

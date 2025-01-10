@@ -146,13 +146,13 @@ function removeLoader() {
   };
 }
 
-// Call the function
-loadHeader();
-loadFooter();
-
 document.addEventListener("DOMContentLoaded", () => {
   // Initialize loader removal
   removeLoader();
+
+  // Call the function
+  loadHeader();
+  loadFooter();
 
   // handleAnchorNavigation();
   switchTabPanel();

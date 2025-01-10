@@ -2901,6 +2901,10 @@ hr.OA_page.OApage-divider.OApage_divider-3 {
   .bulletins-separate-img img {
     margin-right: -30px;
   }
+
+  .bulletins-separate-img {
+    margin-top: -60px;
+  }
 }
 
 @media (max-width: 660px) {

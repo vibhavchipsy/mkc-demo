@@ -439,7 +439,7 @@ h3 {
 }
 
 .page_banner {
-  background-image: url("/mkcbiotherapeutics/assets/images/commonbanner/page_banner_bg.png");
+  background-image: url("../../mkcbiotherapeutics/assets/images/commonbanner/page_banner_bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
